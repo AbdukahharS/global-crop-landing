@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: oklch(54.70% 0.170 138.30);
+  --color-secondary: oklch(73.04% 0.172 135.52);
+  --shadow-circle: 0px -15px 200px 130px #33860080;
+}
+
+* {
+  outline: none !important;
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.shadow-circle {
+  box-shadow: var(--shadow-circle);
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  z-index: -10;
+}
