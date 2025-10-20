@@ -25,7 +25,7 @@ function App() {
       <img
         src={Clouds}
         alt='Clouds'
-        className='absolute top-[100vh] -translate-y-1/2'
+        className='absolute top-[100vh] -translate-y-1/2 w-full h-auto'
       />
       <HowItWorks />
       <Analyse />
