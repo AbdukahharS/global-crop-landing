@@ -5,7 +5,7 @@ import Transparency from '../assets/transparency.png'
 
 const Benefits = () => {
   return (
-    <div className='pt-96 w-full overflow-x-hidden relative pb-48'>
+    <div className='pt-96 w-full overflow-x-hidden relative pb-64'>
       <h2 className='text-center font-semibold text-[32px]'>
         Преимущества <span className='text-primary'>Global Crop</span>
       </h2>
@@ -65,8 +65,8 @@ const Benefits = () => {
           </div>
         </div>
         <div className='shadow-circle top-[784px] left-[-34px]'></div>
-        <div className='shadow-circle top-[1334px] left-0'></div>
-        <div className='shadow-circle top-[1334px] right-[27px]'></div>
+        <div className='shadow-circle top-[1234px] left-0'></div>
+        <div className='shadow-circle top-[1234px] right-[27px]'></div>
         <div className='shadow-circle top-[684px] right-[50px]'></div>
       </div>
     </div>

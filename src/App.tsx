@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import HowItWorks from './components/HowItWorks'
 import Analyse from './components/Analyse'
 import Benefits from './components/Benefits'
+import Banks from './components/Banks'
 
 import LandsBg from './assets/lands-bg.png'
 import Clouds from './assets/clouds.png'
@@ -27,6 +28,7 @@ function App() {
       <HowItWorks />
       <Analyse />
       <Benefits />
+      <Banks />
     </div>
   )
 }
