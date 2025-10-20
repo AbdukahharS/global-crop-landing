@@ -6,6 +6,7 @@ import Analyse from './components/Analyse'
 import Benefits from './components/Benefits'
 import Banks from './components/Banks'
 import Start from './components/Start'
+import Footer from './components/Footer'
 
 import LandsBg from './assets/lands-bg.png'
 import Clouds from './assets/clouds.png'
@@ -31,6 +32,7 @@ function App() {
       <Benefits />
       <Banks />
       <Start />
+      <Footer />
     </div>
   )
 }
