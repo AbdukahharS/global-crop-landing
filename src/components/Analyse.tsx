@@ -5,7 +5,7 @@ import Clouds from '../assets/clouds.png'
 
 const Analyse = () => {
   return (
-    <div className='mt-32 sm:mt-40 lg:mt-56 relative px-4 sm:px-6'>
+    <div className='mt-32 sm:mt-40 lg:mt-56 relative pl-4 sm:pl-6'>
       <h2 className='text-center font-semibold text-2xl sm:text-3xl lg:text-[32px]'>
         Примеры анализа <span className='text-primary'>участка</span>
       </h2>

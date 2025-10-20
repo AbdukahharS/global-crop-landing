@@ -1,10 +1,10 @@
 const Start = () => {
   return (
     <div className='relative pt-48 sm:pt-64 lg:pt-96 overflow-x-hidden pb-40 sm:pb-60 lg:pb-80 px-4 sm:px-6'>
-      <div className='shadow-circle hidden lg:block top-[350px] right-[-8px]'></div>
-      <div className='shadow-circle hidden lg:block top-[800px] right-[427px]'></div>
-      <div className='shadow-circle hidden lg:block top-[750px] left-[475px]'></div>
-      <div className='shadow-circle hidden lg:block top-[400px] left-[-43px]'></div>
+      <div className='shadow-circle top-[150px] sm:top-[250px] lg:top-[350px] right-0 sm:right-[-5px] lg:right-[-8px]'></div>
+      <div className='shadow-circle top-[400px] sm:top-[600px] lg:top-[800px] right-[50%] sm:right-[40%] lg:right-[427px]'></div>
+      <div className='shadow-circle top-[350px] sm:top-[550px] lg:top-[750px] left-[50%] sm:left-[40%] lg:left-[475px]'></div>
+      <div className='shadow-circle top-[180px] sm:top-[280px] lg:top-[400px] left-0 sm:left-[-20px] lg:left-[-43px]'></div>
       <h2 className='font-semibold text-2xl sm:text-3xl lg:text-4xl text-center px-4'>
         Начни <span className='text-primary'>анализ</span> своей земли уже
         сегодня

@@ -14,20 +14,20 @@ const Benefits = () => {
           <div className='bg-[#33860008] pt-10 sm:pt-12 pl-16 sm:pl-20 lg:pl-24 pb-6 sm:pb-8 pr-6 sm:pr-8 rounded-[25px] sm:rounded-[30px] lg:rounded-[40px] relative w-full lg:w-[670px]'>
             <img
               src={Banks}
-              className='absolute top-0 left-0 -translate-x-[30%] sm:-translate-x-[35%] lg:-translate-[45%] -translate-y-[20%] sm:-translate-y-[25%] w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] lg:w-[233px] lg:h-[231px] object-contain rotate-[-4.26deg]'
+              className='absolute top-0 left-0 -translate-x-[35%] sm:-translate-x-[35%] lg:-translate-[45%] -translate-y-[30%] sm:-translate-y-[25%] w-[130px] h-[130px] sm:w-[200px] sm:h-[200px] lg:w-[233px] lg:h-[231px] object-contain rotate-[-4.26deg]'
             />
             <p className='font-semibold text-primary text-xl sm:text-2xl lg:text-[32px]'>Банки</p>
             <p className='font-medium text-lg sm:text-xl lg:text-[28px]'>
               Доверяют нашим данным при выдаче кредитов
             </p>
           </div>
-          <span className='font-bold text-6xl sm:text-8xl lg:text-[160px] text-[#33860012] mt-4 sm:mt-6 lg:mt-8 block'>
+          <span className='font-bold text-6xl sm:text-8xl lg:text-[160px] text-[#33860012] my-4 sm:my-6 lg:my-8 block'>
             GLOBAL
           </span>
           <div className='bg-[#33860008] pt-10 sm:pt-12 pl-16 sm:pl-20 lg:pl-24 pb-6 sm:pb-8 pr-6 sm:pr-8 rounded-[25px] sm:rounded-[30px] lg:rounded-[40px] relative w-full lg:w-[670px]'>
             <img
               src={Transparency}
-              className='absolute top-0 left-0 -translate-x-[30%] sm:-translate-x-[35%] lg:-translate-[45%] -translate-y-[20%] sm:-translate-y-[25%] w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] lg:w-[233px] lg:h-[231px] object-contain rotate-[-4.26deg]'
+              className='absolute top-0 left-0 -translate-x-[35%] sm:-translate-x-[35%] lg:-translate-[45%] -translate-y-[30%] sm:-translate-y-[25%] w-[130px] h-[130px] sm:w-[200px] sm:h-[200px] lg:w-[233px] lg:h-[231px] object-contain rotate-[-4.26deg]'
             />
             <p className='font-semibold text-primary text-xl sm:text-2xl lg:text-[32px]'>
               Прозрачность и надёжность
@@ -39,7 +39,7 @@ const Benefits = () => {
           <div className='bg-[#33860008] pt-10 sm:pt-12 pl-6 sm:pl-8 pb-6 sm:pb-8 pr-16 sm:pr-20 lg:pr-24 rounded-[25px] sm:rounded-[30px] lg:rounded-[40px] relative w-full lg:w-[670px]'>
             <img
               src={AccurateData}
-              className='absolute top-0 right-0 -translate-y-[30%] sm:-translate-y-[35%] lg:-translate-y-[40%] translate-x-[30%] sm:translate-x-[35%] lg:translate-x-[40%] w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] lg:w-[233px] lg:h-[231px] object-contain rotate-[4.26deg]'
+              className='absolute top-0 right-0 -translate-y-[30%] sm:-translate-y-[35%] lg:-translate-y-[40%] translate-x-[30%] sm:translate-x-[35%] lg:translate-x-[40%] w-[130px] h-[130px] sm:w-[200px] sm:h-[200px] lg:w-[233px] lg:h-[231px] object-contain rotate-[4.26deg]'
             />
             <p className='font-semibold text-primary text-xl sm:text-2xl lg:text-[32px]'>
               Точные данные
@@ -48,13 +48,13 @@ const Benefits = () => {
               Актуальная информация о посевах
             </p>
           </div>
-          <span className='font-bold text-6xl sm:text-8xl lg:text-[160px] text-[#33860012] mt-4 sm:mt-6 lg:mt-8 block'>
+          <span className='font-bold text-6xl sm:text-8xl lg:text-[160px] text-[#33860012] my-4 sm:my-6 lg:my-8 block'>
             CROP
           </span>
           <div className='bg-[#33860008] pt-10 sm:pt-12 pl-6 sm:pl-8 pb-6 sm:pb-8 pr-16 sm:pr-20 lg:pr-24 rounded-[25px] sm:rounded-[30px] lg:rounded-[40px] relative w-full lg:w-[670px]'>
             <img
               src={Support}
-              className='absolute top-0 right-0 -translate-y-[30%] sm:-translate-y-[35%] lg:-translate-y-[40%] translate-x-[30%] sm:translate-x-[35%] lg:translate-x-[40%] w-[160px] h-[190px] sm:w-[210px] sm:h-[250px] lg:w-[250px] lg:h-[300px] object-contain rotate-[4.26deg]'
+              className='absolute top-0 right-0 -translate-y-[30%] sm:-translate-y-[35%] lg:-translate-y-[40%] translate-x-[30%] sm:translate-x-[35%] lg:translate-x-[40%] w-[140px] h-[170px] sm:w-[210px] sm:h-[250px] lg:w-[250px] lg:h-[300px] object-contain rotate-[4.26deg]'
             />
             <p className='font-semibold text-primary text-xl sm:text-2xl lg:text-[32px]'>
               Поддержка 24/7

@@ -15,7 +15,7 @@ const HowItWorks = () => {
       <img
         src={GlobalCropBg}
         alt='Global Crop Background'
-        className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -z-10 opacity-50 lg:opacity-100 w-[150%] sm:w-full'
+        className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -z-10 opacity-50 lg:opacity-100 w-[80%] sm:w-[490px]'
       />
       <div className='flex flex-col lg:flex-row justify-between items-center gap-8 sm:gap-12 lg:gap-20 px-4 sm:px-8 lg:px-44 mt-16 sm:mt-32 lg:mt-52'>
         <div className='w-full lg:w-auto'>
@@ -23,7 +23,7 @@ const HowItWorks = () => {
             <img
               src={DataIcon}
               alt='Data Icon'
-              className='h-[160px] w-[140px] sm:h-[240px] sm:w-[210px] lg:h-[320px] lg:w-[282px] absolute top-0 left-0 -translate-x-1/3 sm:-translate-x-1/2 lg:-translate-2/3 -translate-y-1/4 sm:-translate-y-1/3'
+              className='h-[120px] w-[100px] sm:h-[240px] sm:w-[210px] lg:h-[320px] lg:w-[282px] absolute top-0 left-0 -translate-x-[45%] sm:-translate-x-1/2 lg:-translate-2/3 -translate-y-[55%] sm:-translate-y-1/3'
             />
             <div>
               <span className='text-primary font-medium text-2xl sm:text-3xl lg:text-[42px] mr-2 sm:mr-3 lg:mr-5'>
@@ -46,7 +46,7 @@ const HowItWorks = () => {
             <img
               src={MoneyIcon}
               alt='Money Icon'
-              className='h-[140px] w-[125px] sm:h-[210px] sm:w-[185px] lg:h-[283px] lg:w-[250px] absolute bottom-0 left-0 -translate-x-1/3 sm:-translate-x-1/2 lg:-translate-x-2/3 translate-y-1/4 sm:translate-y-1/3 lg:translate-y-1/2'
+              className='h-[120px] w-[105px] sm:h-[210px] sm:w-[185px] lg:h-[283px] lg:w-[250px] absolute bottom-0 left-0 -translate-x-1/3 sm:-translate-x-1/2 lg:-translate-x-2/3 translate-y-1/4 sm:translate-y-1/3 lg:translate-y-1/2'
             />
             <div>
               <span className='text-primary font-medium text-2xl sm:text-3xl lg:text-[42px] mr-2 sm:mr-3 lg:mr-5'>
@@ -70,7 +70,7 @@ const HowItWorks = () => {
           <img
             src={SystemIcon}
             alt='System Icon'
-            className='h-[145px] w-[145px] sm:h-[210px] sm:w-[210px] lg:h-[290px] lg:w-[290px] absolute top-0 right-0 -translate-y-1/4 sm:-translate-y-1/3 lg:-translate-y-1/2 translate-x-1/4 sm:translate-x-1/3 lg:translate-x-1/2'
+            className='h-[125px] w-[125px] sm:h-[210px] sm:w-[210px] lg:h-[290px] lg:w-[290px] absolute top-0 right-0 -translate-y-1/4 sm:-translate-y-1/3 lg:-translate-y-1/2 translate-x-1/4 sm:translate-x-1/3 lg:translate-x-1/2'
           />
           <div>
             <span className='text-primary font-medium text-2xl sm:text-3xl lg:text-[42px] mr-2 sm:mr-3 lg:mr-5'>
