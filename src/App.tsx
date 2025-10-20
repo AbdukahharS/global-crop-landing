@@ -5,6 +5,7 @@ import HowItWorks from './components/HowItWorks'
 import Analyse from './components/Analyse'
 import Benefits from './components/Benefits'
 import Banks from './components/Banks'
+import Start from './components/Start'
 
 import LandsBg from './assets/lands-bg.png'
 import Clouds from './assets/clouds.png'
@@ -29,6 +30,7 @@ function App() {
       <Analyse />
       <Benefits />
       <Banks />
+      <Start />
     </div>
   )
 }
