@@ -27,7 +27,7 @@ const Footer = () => {
             <img src={AngleRight} alt='Angle Right' className='w-4 h-4 lg:w-auto lg:h-auto' />
           </button>
         </div>
-        <div className='grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-12 lg:gap-28 text-center lg:text-left'>
+        <div className='grid grid-cols-2 sm:grid-cols-4 gap-x-4 gap-y-6 sm:gap-12 lg:gap-28 text-center lg:text-left'>
           <div className='text-base sm:text-lg font-medium flex flex-col gap-3 sm:gap-4'>
             <p className='font-semibold'>Главная</p>
             <p>Lorem Ipsum</p>
