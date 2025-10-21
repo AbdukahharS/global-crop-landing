@@ -6,9 +6,13 @@ import AngleRight from '../assets/angle-right.svg'
 
 const Footer = () => {
   return (
-    <footer className='bg-primary text-white flex flex-col items-center py-10 sm:py-12 lg:py-16 rounded-t-[30px] sm:rounded-t-[45px] lg:rounded-t-[60px] px-4 sm:px-6'>
-      <img src={GlobalcropLogo} className='h-12 sm:h-16 lg:h-auto' />
-      <div className='flex flex-col lg:flex-row mt-10 sm:mt-12 lg:mt-16 gap-8 sm:gap-12 lg:gap-28 w-full lg:w-auto'>
+    <footer className='bg-primary text-white flex flex-col items-center py-10 sm:py-12 lg:py-16 rounded-t-[30px] sm:rounded-t-[45px] lg:rounded-t-[60px] px-4 sm:px-6 relative'>
+      <div className='shadow-circle white top-[72px] right-[42px]'></div>
+      <div className='shadow-circle white bottom-[27px] left-[47px]'></div>
+      <div className='shadow-circle white bottom-[123px] right-[112px]'></div>
+      <div className='shadow-circle white top-[189px] left-[143px]'></div>
+      <img src={GlobalcropLogo} className='h-12 sm:h-16 lg:h-auto relative z-10' />
+      <div className='flex flex-col lg:flex-row mt-10 sm:mt-12 lg:mt-16 gap-8 sm:gap-12 lg:gap-28 w-full lg:w-auto relative z-10'>
         <div className='flex flex-row lg:flex-col gap-6 sm:gap-8 lg:gap-10 justify-center'>
           <button className='flex flex-row items-center gap-3 sm:gap-4 lg:gap-6'>
             <img src={Telegram} alt='Telegram' className='w-8 h-8 sm:w-10 sm:h-10 lg:w-auto lg:h-auto' />
@@ -54,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <h2 className='font-bold text-5xl sm:text-7xl lg:text-[160px] text-[#FFFFFF12] mt-8 sm:mt-12 lg:mt-0'>GLOBAL CROP</h2>
+      <h2 className='font-bold text-5xl sm:text-7xl lg:text-[160px] text-[#FFFFFF12] mt-8 sm:mt-12 lg:mt-0 relative z-10'>GLOBAL CROP</h2>
     </footer>
   )
 }

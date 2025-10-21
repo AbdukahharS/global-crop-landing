@@ -1,5 +1,4 @@
 import GlobalCropLogo from '../assets/globalcrop-logo.svg'
-import AgrobankLogo from '../assets/agrobank-logo.png'
 import LoginIcon from '../assets/login.svg'
 
 const Navbar = () => {
@@ -18,10 +17,6 @@ const Navbar = () => {
           <span className='font-bold text-sm sm:text-lg lg:text-[22px] tracking-wide'>
             GLOBAL CROP
           </span>
-        </div>
-        <div className='flex items-center gap-2 sm:gap-3 lg:gap-5'>
-          <img src={AgrobankLogo} alt='Agrobank Logo' className='size-[28px] sm:size-[32px] lg:size-[38px]' />
-          <span className='font-bold text-sm sm:text-lg lg:text-[22px] tracking-wide'>AGROBANK</span>
         </div>
       </div>
       <div className='hidden xl:flex items-center gap-8 lg:gap-14'>

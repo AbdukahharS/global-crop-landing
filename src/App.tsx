@@ -17,7 +17,7 @@ function App() {
       <img
         src={LandsBg}
         alt='Lands Background'
-        className='absolute inset-0 object-cover w-full h-full -z-10 opacity-5'
+        className='absolute inset-0 object-cover w-full h-full -z-10 opacity-15'
       />
       <Navbar />
       <Circles />
