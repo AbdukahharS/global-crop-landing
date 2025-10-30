@@ -1,6 +1,6 @@
-import Circles from './components/Circles'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import SoilTypes from './components/SoilTypes'
 import HowItWorks from './components/HowItWorks'
 import Analyse from './components/Analyse'
 import Benefits from './components/Benefits'
@@ -9,7 +9,6 @@ import Start from './components/Start'
 import Footer from './components/Footer'
 
 import LandsBg from './assets/lands-bg.png'
-import Clouds from './assets/clouds.png'
 
 function App() {
   return (
@@ -17,16 +16,12 @@ function App() {
       <img
         src={LandsBg}
         alt='Lands Background'
-        className='absolute inset-0 object-cover w-full h-full -z-10 opacity-15'
+        className='absolute inset-0 object-cover w-full h-full -z-10 opacity-80'
       />
       <Navbar />
-      <Circles />
       <Hero />
-      <img
-        src={Clouds}
-        alt='Clouds'
-        className='absolute top-[100vh] -translate-y-1/2 w-full h-auto'
-      />
+      <div className='absolute w-full inset-0 h-[20vh] top-[80vh]' style={{ background: 'linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)' }}></div>
+      <SoilTypes />
       <HowItWorks />
       <Analyse />
       <Benefits />

@@ -22,27 +22,3 @@ body {
 button {
   cursor: pointer;
 }
-
-.shadow-circle {
-  box-shadow: 0px -15px 200px 130px #33860080;
-  border-radius: 50%;
-  width: 1px;
-  height: 1px;
-  position: absolute;
-  z-index: -10;
-
-  &.white {
-    box-shadow: 0px -15px 200px 130px #ffffff4d;
-    z-index: 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .shadow-circle {
-    box-shadow: 0px -5px 70px 40px #33860080;
-
-    &.white {
-      box-shadow: 0px -5px 70px 40px #ffffff4d;
-    }
-  }
-}

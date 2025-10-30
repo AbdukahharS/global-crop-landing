@@ -6,9 +6,6 @@ import MoneyIcon from '../assets/money.png'
 const HowItWorks = () => {
   return (
     <div className='mt-32 sm:mt-48 lg:mt-72 relative px-4 sm:px-6'>
-      <div className='shadow-circle hidden lg:block top-[1013px] left-[30px]'></div>
-      <div className='shadow-circle hidden lg:block top-[313px] left-[46px]'></div>
-      <div className='shadow-circle hidden lg:block top-[613px] right-[94px]'></div>
       <h2 className='text-center font-semibold text-2xl sm:text-3xl lg:text-[32px]'>
         Как работает <span className='text-primary'>Global Crop</span>
       </h2>

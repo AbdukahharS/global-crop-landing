@@ -68,10 +68,6 @@ const Benefits = () => {
             </p>
           </div>
         </div>
-        <div className='shadow-circle hidden lg:block top-[784px] left-[-34px]'></div>
-        <div className='shadow-circle hidden lg:block top-[1234px] left-0'></div>
-        <div className='shadow-circle hidden lg:block top-[1234px] right-[27px]'></div>
-        <div className='shadow-circle hidden lg:block top-[684px] right-[50px]'></div>
       </div>
     </div>
   )
