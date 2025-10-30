@@ -9,7 +9,7 @@ const SoilTypes = () => {
         src={BG}
         alt='Soil Types Background'
         className='-z-10 w-screen h-auto'
-      />
+      /> 
       <div
         className='absolute inset-0 w-full top-0 h-[20vh]'
         style={{
