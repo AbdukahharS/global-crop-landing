@@ -1,92 +1,64 @@
-import GlobalCropBg from '../assets/globalcrop-bg.svg'
+import BG from '../assets/crop.png'
 import DataIcon from '../assets/data.png'
 import SystemIcon from '../assets/system.png'
 import MoneyIcon from '../assets/money.png'
 
 const HowItWorks = () => {
   return (
-    <div className='mt-32 sm:mt-48 lg:mt-72 relative px-4 sm:px-6'>
-      <h2 className='text-center font-semibold text-2xl sm:text-3xl lg:text-[32px]'>
-        Как работает <span className='text-primary'>Global Crop</span>
-      </h2>
+    <div className='relative pt-80'>
       <img
-        src={GlobalCropBg}
-        alt='Global Crop Background'
-        className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -z-10 opacity-50 lg:opacity-100 w-[80%] sm:w-[490px]'
+        src={BG}
+        alt='Soil Background'
+        className='opacity-40 absolute -z-10 w-full h-[90%] top-[10%] object-contain'
       />
-      <div className='flex flex-col lg:flex-row justify-between items-center gap-8 sm:gap-12 lg:gap-20 px-4 sm:px-8 lg:px-44 mt-16 sm:mt-32 lg:mt-52'>
-        <div className='w-full lg:w-auto'>
-          <div className='bg-[#33860008] relative py-8 sm:py-10 lg:py-14 pr-4 sm:pr-5 lg:pr-7 pl-8 sm:pl-12 lg:pl-16 rounded-[20px] sm:rounded-[30px] lg:rounded-[40px]'>
-            <img
-              src={DataIcon}
-              alt='Data Icon'
-              className='h-[120px] w-[100px] sm:h-[240px] sm:w-[210px] lg:h-[320px] lg:w-[282px] absolute top-0 left-0 -translate-x-[45%] sm:-translate-x-1/2 lg:-translate-2/3 -translate-y-[55%] sm:-translate-y-1/3'
-            />
-            <div>
-              <span className='text-primary font-medium text-2xl sm:text-3xl lg:text-[42px] mr-2 sm:mr-3 lg:mr-5'>
-                1.
-              </span>
-              <span className='text-primary font-semibold text-xl sm:text-2xl lg:text-[32px]'>
-                Получи подробный отчёт
-              </span>
-            </div>
-            <div>
-              <span className='text-transparent font-medium text-2xl sm:text-3xl lg:text-[42px] mr-2 sm:mr-3 lg:mr-5'>
-                1.
-              </span>
-              <span className='font-medium text-lg sm:text-xl lg:text-[28px]'>
-                Используй его для кредита
-              </span>
-            </div>
-          </div>
-          <div className='bg-[#33860008] relative py-8 sm:py-10 lg:py-14 pr-4 sm:pr-5 lg:pr-7 pl-8 sm:pl-12 lg:pl-16 rounded-[20px] sm:rounded-[30px] lg:rounded-[40px] mt-16 sm:mt-28 lg:mt-44'>
-            <img
-              src={MoneyIcon}
-              alt='Money Icon'
-              className='h-[120px] w-[105px] sm:h-[210px] sm:w-[185px] lg:h-[283px] lg:w-[250px] absolute bottom-0 left-0 -translate-x-1/3 sm:-translate-x-1/2 lg:-translate-x-2/3 translate-y-1/4 sm:translate-y-1/3 lg:translate-y-1/2'
-            />
-            <div>
-              <span className='text-primary font-medium text-2xl sm:text-3xl lg:text-[42px] mr-2 sm:mr-3 lg:mr-5'>
-                2.
-              </span>
-              <span className='text-primary font-semibold text-xl sm:text-2xl lg:text-[32px]'>
-                Получи подробный отчёт
-              </span>
-            </div>
-            <div>
-              <span className='text-transparent font-medium text-2xl sm:text-3xl lg:text-[42px] mr-2 sm:mr-3 lg:mr-5'>
-                2.
-              </span>
-              <span className='font-medium text-lg sm:text-xl lg:text-[28px]'>
-                Используй его для кредита
-              </span>
-            </div>
-          </div>
+      <h2 className='font-medium text-[32px] text-center'>
+        Как это работает <span className='text-primary'>Global Crop</span>
+      </h2>
+      <div className='mt-[74px] flex flex-row justify-center gap-16'>
+        <div className='flex flex-col justify-between bg-[#FFFFFF73] w-[440px] items-center pt-11 pb-32 rounded-[40px] px-6 border border-primary gap-24 relative'>
+          <h3 className='text-primary font-semibold text-4xl text-center'>
+            Внести данные о своем участке
+          </h3>
+          <p className='font-medium text-[28px]'>Координаты, площадь</p>
+          <div></div>
+          <img
+            src={DataIcon}
+            alt='Data Icon'
+            className='absolute left-0 bottom-0 w-[268px] translate-y-1/4 -translate-x-1/4'
+          />
         </div>
-        <div className='bg-[#33860008] relative py-8 sm:py-10 lg:py-14 pl-4 sm:pl-5 lg:pl-7 pr-8 sm:pr-12 lg:pr-16 rounded-[20px] sm:rounded-[30px] lg:rounded-[40px] w-full lg:w-auto'>
+        <div className='flex flex-col justify-between bg-[#FFFFFF73] w-[440px] items-center pt-11 pb-32 rounded-[40px] px-6 border border-primary gap-24 relative'>
+          <h3 className='text-primary font-semibold text-4xl text-center'>
+            Внести данные о своем участке
+          </h3>
+          <p className='font-medium text-[28px]'>Координаты, площадь</p>
+          <div></div>
           <img
             src={SystemIcon}
-            alt='System Icon'
-            className='h-[125px] w-[125px] sm:h-[210px] sm:w-[210px] lg:h-[290px] lg:w-[290px] absolute top-0 right-0 -translate-y-1/4 sm:-translate-y-1/3 lg:-translate-y-1/2 translate-x-1/4 sm:translate-x-1/3 lg:translate-x-1/2'
+            alt='Data Icon'
+            className='absolute left-0 bottom-0 w-[268px] translate-y-1/4 -translate-x-1/4'
           />
-          <div>
-            <span className='text-primary font-medium text-2xl sm:text-3xl lg:text-[42px] mr-2 sm:mr-3 lg:mr-5'>
-              2.
-            </span>
-            <span className='text-primary font-semibold text-xl sm:text-2xl lg:text-[32px]'>
-              Получи подробный отчёт
-            </span>
-          </div>
-          <div>
-            <span className='text-transparent font-medium text-2xl sm:text-3xl lg:text-[42px] mr-2 sm:mr-3 lg:mr-5'>
-              2.
-            </span>
-            <span className='font-medium text-lg sm:text-xl lg:text-[28px]'>
-              Используй его для кредита
-            </span>
-          </div>
+        </div>
+        <div className='flex flex-col justify-between bg-[#FFFFFF73] w-[440px] items-center pt-11 pb-32 rounded-[40px] px-6 border border-primary gap-24 relative'>
+          <h3 className='text-primary font-semibold text-4xl text-center'>
+            Внести данные о своем участке
+          </h3>
+          <p className='font-medium text-[28px]'>Координаты, площадь</p>
+          <div></div>
+          <img
+            src={MoneyIcon}
+            alt='Data Icon'
+            className='absolute left-0 bottom-0 w-[268px] translate-y-1/4 -translate-x-1/4'
+          />
         </div>
       </div>
+      <div
+        style={{
+          background:
+            'linear-gradient(360deg, #FFFFFF 12.61%, rgba(255, 255, 255, 0) 100%)',
+        }}
+        className='w-full h-[20vh] mt-20'
+      ></div>
     </div>
   )
 }

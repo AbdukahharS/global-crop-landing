@@ -5,7 +5,7 @@ import AngleRight from '../assets/angle-right.svg'
 
 const Banks = () => {
   return (
-    <div className='relative pb-10 px-4 sm:px-6'>
+    <div className='relative pb-10 px-4 sm:px-6 pt-44'>
       <img
         src={LooperLeft}
         alt=''

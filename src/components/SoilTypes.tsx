@@ -34,8 +34,8 @@ const SoilTypes = () => {
           </div>
         </div>
       </div>
-      <img src={Laptop} alt="Laptop" className='absolute w-[40vw] h-auto bottom-1/2 translate-y-3/5 right-0 z-[1]' />
-      <img src={Clouds} alt="Clouds" className='absolute w-full h-auto bottom-0 left-0 translate-y-full z-[0] inset-0' />
+      <img src={Laptop} alt="Laptop" className='absolute w-[40vw] h-auto bottom-1/2 translate-y-3/5 right-0 z-[2]' />
+      <img src={Clouds} alt="Clouds" className='absolute w-full h-auto bottom-0 left-0 translate-y-[60%] z-[1]' />
     </div>
   )
 }

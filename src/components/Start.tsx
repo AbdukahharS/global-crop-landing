@@ -1,6 +1,26 @@
+import BG from '../assets/start.png'
+
 const Start = () => {
   return (
-    <div className='relative pt-48 sm:pt-64 lg:pt-96 overflow-x-hidden pb-40 sm:pb-60 lg:pb-80 px-4 sm:px-6'>
+    <div className='relative my-40 pt-48 sm:pt-64 lg:pt-96 overflow-x-hidden pb-40 sm:pb-60 lg:pb-80 px-4 sm:px-6'>
+      <img
+        src={BG}
+        className='absolute top-0 left-0 w-screen h-full -z-10 opacity-[13%]'
+      />
+      <div
+        className='w-screen h-[20vh] absolute top-0 left-0 z-[-9]'
+        style={{
+          background:
+            'linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)',
+        }}
+      ></div>
+      <div
+        className='w-screen h-[20vh] absolute bottom-0 left-0 z-[-9]'
+        style={{
+          background:
+            'linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)',
+        }}
+      ></div>
       <h2 className='font-semibold text-2xl sm:text-3xl lg:text-4xl text-center px-4'>
         Начни <span className='text-primary'>анализ</span> своей земли уже
         сегодня
