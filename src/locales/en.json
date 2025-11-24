@@ -1,0 +1,144 @@
+{
+  "documentTitle": "Global Crop - Modern Technologies for Agriculture",
+  "navbar": {
+    "about": "About the Project",
+    "services": "Our Services",
+    "technologies": "Technologies",
+    "contact": "Contact Us",
+    "login": "Login"
+  },
+  "hero": {
+    "title": "a system for using modern technologies in agricultural production.",
+    "description": "is a system that provides analytical data for making important decisions in agriculture. We are a system specialized in developing solutions in agriculture based on spatial spectral data using artificial intelligence.",
+    "cta": "Together with us, monitor land plots and crops through your mobile device with high accuracy."
+  },
+  "soilTypes": {
+    "title": "How the Global Crop System Works"
+  },
+  "steps": [
+    {
+      "title": "Add Your Fields",
+      "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+    },
+    {
+      "title": "Receive Satellite Data",
+      "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+    },
+    {
+      "title": "Add Your Fields",
+      "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+    },
+    {
+      "title": "Add Your Fields",
+      "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+    },
+    {
+      "title": "Add Your Fields",
+      "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+    },
+    {
+      "title": "Add Your Fields",
+      "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+    }
+  ],
+  "howItWorks": {
+    "title": "Advantages",
+    "banks": {
+      "title": "Banks",
+      "description": "Trust our data when issuing loans"
+    },
+    "transparency": {
+      "title": "Transparency and Reliability",
+      "description": "Our reliability and trust"
+    },
+    "accurateData": {
+      "title": "Accurate Data",
+      "description": "Up-to-date information about crops"
+    },
+    "support": {
+      "title": "Support",
+      "description": "Always in touch with our clients"
+    }
+  },
+  "benefits": {
+    "items": [
+      {
+        "title": "Get comprehensive crop analytics",
+        "description": "We collect comprehensive data from various sources and turn it into clear and accessible information. Analyze field history, weather conditions, and crop health to make fast and effective decisions."
+      },
+      {
+        "title": "Monitor crop health with satellite imagery",
+        "description": "Forget about unnecessary field trips. Satellite crop monitoring helps track plant conditions, identify problem areas, control vegetation changes and soil moisture levels — all from your device screen."
+      },
+      {
+        "title": "Receive timely risk notifications",
+        "description": "We will warn you about potential threats before they turn into serious problems. Monitor changes in vegetation condition and protect your fields and crops."
+      },
+      {
+        "title": "Optimize resource usage",
+        "description": "Don't waste extra resources! Use variable rate application (VRA) maps to save on fertilizers, water, seeds, and fuel. Spend less — harvest more."
+      },
+      {
+        "title": "Customize individual reports",
+        "description": "Set up individual reports for convenient access to field information. Generate and share reports with your team and partners in just a few clicks."
+      }
+    ],
+    "features": {
+      "title": "Top Features of Our Platform for Crop Monitoring",
+      "list": [
+        {
+          "title": "Remote Satellite Field Condition Monitoring",
+          "description": "Monitor vegetation condition in different zones without going to the field. Use 10 ready-made vegetation indices to make informed decisions. Thanks to regular and high-precision Sentinel-2 and PlanetScope images without clouds and shadows, you can track crops in real time with a resolution of up to 3 m, which allows you to quickly respond to any threats."
+        },
+        {
+          "title": "Growth Phases",
+          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+        },
+        {
+          "title": "Risk Map",
+          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+        },
+        {
+          "title": "Variable Rate Application Maps",
+          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+        },
+        {
+          "title": "Work Log",
+          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+        },
+        {
+          "title": "Yield Assessment",
+          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+        },
+        {
+          "title": "Weather Analysis",
+          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+        },
+        {
+          "title": "Automatic Reports",
+          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+        },
+        {
+          "title": "Team Management",
+          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+        }
+      ]
+    }
+  },
+  "banks": {
+    "title": "for banks and partners",
+    "description": "provides objective data for evaluating agricultural land and minimizing risks when issuing loans.",
+    "cta": "Contact Partnership Department"
+  },
+  "start": {
+    "title": "Start analyzing your land today",
+    "subtitle": "Free first report for new users",
+    "cta": "Submit plot for analysis"
+  },
+  "footer": {
+    "home": "Home",
+    "about": "About Us",
+    "shop": "Shop",
+    "privacy": "Privacy"
+  }
+}

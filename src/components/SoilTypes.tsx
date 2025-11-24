@@ -1,50 +1,18 @@
+import { useTranslation } from 'react-i18next'
 import BG from '../assets/soil-bg.png'
 import Clouds from '../assets/clouds.png'
 import Img1 from '../assets/img-1.png'
 import { useState } from 'react'
 
 const SoilTypes = () => {
+  const { t } = useTranslation()
   const [activeStep, setActiveStep] = useState(0)
 
-  const steps = [
-    {
-      title: 'Добавьте свои поля',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-    {
-      title: 'Получайте спутниковые данные',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-    {
-      title: 'Добавьте свои поля',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-    {
-      title: 'Добавьте свои поля',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-    {
-      title: 'Добавьте свои поля',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-    {
-      title: 'Добавьте свои поля',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-  ]
-  
+  const steps = t('steps', { returnObjects: true }) as Array<{
+    title: string
+    description: string
+  }>
+
   return (
     <div className='relative'>
       <img
@@ -61,7 +29,7 @@ const SoilTypes = () => {
       ></div>
       <div className='z-10 absolute max-w-7xl -translate-x-1/2 left-1/2 w-full top-0 pt-5'>
         <h2 className='text-primary font-semibold text-[32px] text-center'>
-          Global Crop тизимининг ишлаш тартиби
+          {t('soilTypes.title')}
         </h2>
         <div className='h-[80vh] flex flex-row gap-12 w-full mt-16'>
           <div className='flex-1 flex flex-col h-auto gap-6'>
@@ -88,7 +56,7 @@ const SoilTypes = () => {
                     index === activeStep ? 'mt-5 max-h-96' : 'max-h-0 mt-0'
                   }`}
                 >
-                  {step.desciption}
+                  {step.description}
                 </p>
               </div>
             ))}

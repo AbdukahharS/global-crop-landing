@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import BG1 from '../assets/benefits.png'
 import BG2 from '../assets/bg2.png'
 import BG3 from '../assets/bg3.png'
@@ -19,105 +20,46 @@ import UserCircleIcon from '../assets/User Circle.svg'
 import MapPointWaveIcon from '../assets/Map Point Wave.svg'
 
 const Benefits = () => {
+  const { t } = useTranslation()
   const [activeStep, setActiveStep] = useState(0)
 
-  const steps = [
-    {
-      Icon: SatelliteIcon,
-      title: 'Дистанционный Спутниковый Мониторинг Состояния Полей',
-      desciption:
-        'Следите за состоянием растительности в разных зонах, не выезжая в поле. Используйте 10 готовых вегетационных индексов для принятия разумных решений. Благодаря регулярным и высокоточным снимкам Sentinel-2 и PlanetScope без облаков и теней, вы сможете отслеживать посевы в реальном времени с разрешением до 3 м, что позволит быстро реагировать на любые угрозы.',
-      image: Img1,
-    },
-    {
-      Icon: CloudSunIcon,
-      title: 'Фазы роста',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-    {
-      Icon: MapPointWaveIcon,
-      title: 'Карта рисков',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-    {
-      Icon: MapIcon,
-      title: 'Карты Дифференцированного Внесения',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-    {
-      Icon: InboxLineIcon,
-      title: 'Журнал Работ',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-    {
-      Icon: ChartIcon,
-      title: 'Оценка Урожайности',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-    {
-      Icon: CloudSunIcon,
-      title: 'Анализ Погоды',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-    {
-      Icon: PieChartIcon,
-      title: 'Автоматические Отчёты',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
-    {
-      Icon: UserCircleIcon,
-      title: 'Управление Командой',
-      desciption:
-        'Загрузите файл с границами участков или нарисуйте их вручную. Укажите информацию о текущем и предыдущих сезонах',
-      image: Img1,
-    },
+  const icons = [
+    SatelliteIcon,
+    CloudSunIcon,
+    MapPointWaveIcon,
+    MapIcon,
+    InboxLineIcon,
+    ChartIcon,
+    CloudSunIcon,
+    PieChartIcon,
+    UserCircleIcon,
   ]
-  const items = [
-    {
-      title: 'Получайте комплексную аналитику посевов',
-      description:
-        'Мы собираем комплексные данные из разных источников и превращаем их в понятную и доступную информацию. Анализируйте историю полей, погодные условия и состояние здоровья посевов для принятия быстрых и эффективных решений.',
-      img: item1,
-    },
-    {
-      title: 'Следите за здоровьем посевов с помощью спутниковых снимков',
-      description:
-        'Забудьте про лишние выезды в поле. Спутниковый мониторинг посевов поможет отслеживать состояние растений, выявлять проблемные участки, контролировать изменения растительности и уровень влаги в почве — всё с экрана вашего устройства.',
-      img: item2,
-    },
-    {
-      title: 'Получайте уведомления о рисках своевременно',
-      description:
-        'Мы предупредим вас о потенциальных угрозах ещё до того, как они перерастут в серьёзные проблемы. Контролируйте изменения в состоянии растительности и защитите свои поля и урожаи.',
-      img: item3,
-    },
-    {
-      title: 'Оптимизируйте использование ресурсов',
-      description:
-        'Не тратьте лишние ресурсы! Используйте карты дифференцированного внесения (VRA), чтобы экономить удобрения, воду, семена и топливо. Тратьте меньше — собирайте больше.',
-      img: item4,
-    },
-    {
-      title: 'Настраивайте индивидуальные отчёты',
-      description:
-        'Настройте индивидуальные отчёты для удобного доступа к информации о полях. Формируйте и делитесь отчётами с командой и партнёрами в пару кликов.',
-      img: item5,
-    },
-  ]
+
+  const steps = (
+    t('benefits.features.list', { returnObjects: true }) as Array<{
+      title: string
+      description: string
+    }>
+  ).map((step, index) => ({
+    Icon: icons[index],
+    title: step.title,
+    desciption: step.description,
+    image: Img1,
+  }))
+
+  const itemImages = [item1, item2, item3, item4, item5]
+
+  const items = (
+    t('benefits.items', { returnObjects: true }) as Array<{
+      title: string
+      description: string
+    }>
+  ).map((item, index) => ({
+    title: item.title,
+    description: item.description,
+    img: itemImages[index],
+  }))
+
   return (
     <div className='relative min-h-screen px-20'>
       <img
@@ -219,9 +161,11 @@ const Benefits = () => {
       </div>
       <div className='mx-auto max-w-[1480px] mt-52'>
         <h2 className='font-medium text-[32px] text-center'>
-          Топ Возможности Нашей Платформы для{' '}
+          {t('benefits.features.title')}{' '}
           <span className='font-semibold text-primary'>
-            Мониторинга Посевов
+            {t('benefits.features.title').includes('Мониторинга Посевов')
+              ? ''
+              : ''}
           </span>
         </h2>
         <div className='flex flex-row gap-12 w-full mt-16'>

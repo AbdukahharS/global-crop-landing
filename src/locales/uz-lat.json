@@ -1,0 +1,144 @@
+{
+  "documentTitle": "Global Crop - Qishloq xo'jaligi uchun zamonaviy texnologiyalar",
+  "navbar": {
+    "about": "Loyiha to'g'risida",
+    "services": "Hizmatlarimiz",
+    "technologies": "Texnologiyalar",
+    "contact": "Biz bilan bog'lanish",
+    "login": "Kirish"
+  },
+  "hero": {
+    "title": "qishloq xo'jaligi mahsulotlarini yetishtrishda zamonaviy texnologiyalardan foydalanish tizimi.",
+    "description": "kishloq xujaligida muhim kararlarni kabul kilishda tahiliy ma'lumotlarni takdim etuvchi tizimdir. Biz qishloq xo'jaligida fazoviy spektral ma'lumotlarga asoslangan va sun'iy intellektdan foydalangan holdagi echimlarni ishlab chiqishga ixtisoslashgan tizim hisoblanamiz.",
+    "cta": "Biz bilan birga yer maydonchalari va hosil monitoringini mobil qurilmangiz orqali yuqori aniklikda ammalga oshire."
+  },
+  "soilTypes": {
+    "title": "Global Crop tizimining ishlash tartibi"
+  },
+  "steps": [
+    {
+      "title": "O'z dalalaringizni qo'shing",
+      "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+    },
+    {
+      "title": "Sun'iy yo'ldosh ma'lumotlarini oling",
+      "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+    },
+    {
+      "title": "O'z dalalaringizni qo'shing",
+      "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+    },
+    {
+      "title": "O'z dalalaringizni qo'shing",
+      "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+    },
+    {
+      "title": "O'z dalalaringizni qo'shing",
+      "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+    },
+    {
+      "title": "O'z dalalaringizni qo'shing",
+      "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+    }
+  ],
+  "howItWorks": {
+    "title": "Afzalliklar",
+    "banks": {
+      "title": "Banklar",
+      "description": "Kredit berishda bizning ma'lumotlarimizga ishonadi"
+    },
+    "transparency": {
+      "title": "Shaffoflik va ishonchlilik",
+      "description": "Bizning ishonchliligimiz va ishonch"
+    },
+    "accurateData": {
+      "title": "Aniq ma'lumotlar",
+      "description": "Ekish haqida dolzarb ma'lumot"
+    },
+    "support": {
+      "title": "Qo'llab-quvvatlash",
+      "description": "Mijozlarimiz bilan doimo aloqadamiz"
+    }
+  },
+  "benefits": {
+    "items": [
+      {
+        "title": "Ekinlarning kompleks tahlilini oling",
+        "description": "Biz turli manbalardan kompleks ma'lumotlar to'playmiz va ularni tushunarli va ochiq ma'lumotga aylantiramiz. Tez va samarali qarorlar qabul qilish uchun dalalar tarixini, ob-havo sharoitlarini va ekinlar sog'ligini tahlil qiling."
+      },
+      {
+        "title": "Sun'iy yo'ldosh tasvirlari yordamida ekinlar sog'ligini kuzating",
+        "description": "Dalaga ortiqcha chiqishlarni unutib qo'ying. Ekinlarni sun'iy yo'ldosh monitoringi o'simliklar holatini kuzatishga, muammoli uchastkalarni aniqlashga, o'simlik va tuproqdagi namlik darajasini nazorat qilishga yordam beradi - barchasi qurilmangiz ekranidan."
+      },
+      {
+        "title": "Risqlar haqida o'z vaqtida xabarnomalar oling",
+        "description": "Biz sizni potentsial tahdidlar jiddiy muammolarga aylanishidan oldin ogohlantriramiz. O'simliklarning holatidagi o'zgarishlarni nazorat qiling va dalalaringiz va hosilingizni himoya qiling."
+      },
+      {
+        "title": "Resurslar foydalanishni optimallashtiring",
+        "description": "Ortiqcha resurslarni sarflamang! O'g'it, suv, urug' va yoqilg'ini tejash uchun differentsial kiritish xaritalari (VRA)dan foydalaning. Kamroq sarflang - ko'proq yig'ing."
+      },
+      {
+        "title": "Shaxsiy hisobotlarni sozlang",
+        "description": "Dalalar haqidagi ma'lumotlarga qulay kirish uchun shaxsiy hisobotlarni sozlang. Bir necha klik bilan jamoa va hamkorlar bilan hisobotlarni shakllantiring va ulashing."
+      }
+    ],
+    "features": {
+      "title": "Ekishlarni Monitoring qilish uchun Platformamizning Top Imkoniyatlari",
+      "list": [
+        {
+          "title": "Masofadan Sun'iy Yo'ldosh Dala Holatini Monitoring",
+          "description": "Dalaga chiqmasdan turli zonalarda o'simlik holatini kuzating. Oqilona qarorlar qabul qilish uchun 10 ta tayyor vegetatsion indeksdan foydalaning. Bulutlar va soyalarsiz muntazam va yuqori aniqlikdagi Sentinel-2 va PlanetScope suratlar tufayli siz 3 m gacha o'lchamdagi ekinlarni real vaqtda kuzatishingiz mumkin, bu har qanday tahdidlarga tez javob berishga imkon beradi."
+        },
+        {
+          "title": "O'sish bosqichlari",
+          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+        },
+        {
+          "title": "Risqlar xaritasi",
+          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+        },
+        {
+          "title": "Differentsial Kiritish Xaritalari",
+          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+        },
+        {
+          "title": "Ishlar Jurnali",
+          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+        },
+        {
+          "title": "Hosildorlik Baholash",
+          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+        },
+        {
+          "title": "Ob-havo Tahlili",
+          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+        },
+        {
+          "title": "Avtomatik Hisobotlar",
+          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+        },
+        {
+          "title": "Jamoa Boshqaruvi",
+          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+        }
+      ]
+    }
+  },
+  "banks": {
+    "title": "banklar va hamkorlar uchun",
+    "description": "qishloq xo'jaligi yerlarini baholash va kredit berishda risqlarni minimallash uchun obyektiv ma'lumotlar taqdim etadi.",
+    "cta": "Hamkorlik bo'limi bilan bog'lanish"
+  },
+  "start": {
+    "title": "Bugun o'z yeringizning tahlili bilan boshlang",
+    "subtitle": "Yangi foydalanuvchilar uchun birinchi hisobot bepul",
+    "cta": "Uchastkani tahlil uchun yuborish"
+  },
+  "footer": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "shop": "Do'kon",
+    "privacy": "Maxfiylik"
+  }
+}

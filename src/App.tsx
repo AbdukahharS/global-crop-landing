@@ -1,31 +1,31 @@
+import { useEffect } from 'react'
+import { Outlet, useParams, useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import SoilTypes from './components/SoilTypes'
-import HowItWorks from './components/HowItWorks'
-import Benefits from './components/Benefits'
-import Banks from './components/Banks'
-import Start from './components/Start'
-import Footer from './components/Footer'
 
-import LandsBg from './assets/lands-bg.png'
+const SUPPORTED_LANGUAGES = ['en', 'ru', 'uz-lat', 'uz-cyr']
 
 function App() {
+  const { lang } = useParams<{ lang: string }>()
+  const navigate = useNavigate()
+  const { i18n, t } = useTranslation()
+
+  useEffect(() => {
+    if (lang && SUPPORTED_LANGUAGES.includes(lang)) {
+      i18n.changeLanguage(lang)
+    } else {
+      navigate('/uz-lat', { replace: true })
+    }
+  }, [lang, i18n, navigate])
+
+  useEffect(() => {
+    document.title = t('documentTitle')
+  }, [t, lang])
+
   return (
     <div className='pt-[100vh]'>
-      <img
-        src={LandsBg}
-        alt='Lands Background'
-        className='absolute inset-0 object-cover w-full h-full -z-10 opacity-80'
-      />
       <Navbar />
-      <Hero />
-      <div className='absolute w-full inset-0 h-[20vh] top-[80vh]' style={{ background: 'linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)' }}></div>
-      <SoilTypes />
-      <HowItWorks />
-      <Benefits />
-      <Banks />
-      <Start />
-      <Footer />
+      <Outlet />
     </div>
   )
 }
