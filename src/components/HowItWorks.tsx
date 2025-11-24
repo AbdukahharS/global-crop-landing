@@ -1,55 +1,86 @@
 import BG from '../assets/crop.png'
-import DataIcon from '../assets/data.png'
-import SystemIcon from '../assets/system.png'
-import MoneyIcon from '../assets/money.png'
+import Banks from '../assets/banks.png'
+import AccurateData from '../assets/accurate-data.png'
+import Support from '../assets/support.png'
+import Transparency from '../assets/transparency.png'
+import LooperLeft from '../assets/looper-left.svg'
+import LooperRight from '../assets/looper-right.svg'
 
 const HowItWorks = () => {
   return (
-    <div className='relative pt-80'>
+    <div className='relative min-h-screen pt-80 h-fit'>
+      <img
+        src={LooperLeft}
+        alt=''
+        className='absolute left-0 bottom-0 translate-y-1/2 -z-[9] hidden lg:block'
+      />
+      <img
+        src={LooperRight}
+        alt=''
+        className='absolute right-0 bottom-0 translate-y-1/2 -z-[9] hidden lg:block'
+      />
       <img
         src={BG}
         alt='Soil Background'
-        className='opacity-40 absolute -z-10 w-full h-[90%] top-[10%] object-contain'
+        className='opacity-40 absolute -z-10 w-full min-h-screen h-full top-0 left-0 object-cover'
       />
-      <h2 className='font-medium text-[32px] text-center'>
-        Как это работает <span className='text-primary'>Global Crop</span>
-      </h2>
-      <div className='mt-[74px] flex flex-row justify-center gap-16'>
-        <div className='flex flex-col justify-between bg-[#FFFFFF73] w-[440px] items-center pt-11 pb-32 rounded-[40px] px-6 border border-primary gap-24 relative'>
-          <h3 className='text-primary font-semibold text-4xl text-center'>
-            Внести данные о своем участке
-          </h3>
-          <p className='font-medium text-[28px]'>Координаты, площадь</p>
-          <div></div>
-          <img
-            src={DataIcon}
-            alt='Data Icon'
-            className='absolute left-0 bottom-0 w-[268px] translate-y-1/4 -translate-x-1/4'
-          />
-        </div>
-        <div className='flex flex-col justify-between bg-[#FFFFFF73] w-[440px] items-center pt-11 pb-32 rounded-[40px] px-6 border border-primary gap-24 relative'>
-          <h3 className='text-primary font-semibold text-4xl text-center'>
-            Внести данные о своем участке
-          </h3>
-          <p className='font-medium text-[28px]'>Координаты, площадь</p>
-          <div></div>
-          <img
-            src={SystemIcon}
-            alt='Data Icon'
-            className='absolute left-0 bottom-0 w-[268px] translate-y-1/4 -translate-x-1/4'
-          />
-        </div>
-        <div className='flex flex-col justify-between bg-[#FFFFFF73] w-[440px] items-center pt-11 pb-32 rounded-[40px] px-6 border border-primary gap-24 relative'>
-          <h3 className='text-primary font-semibold text-4xl text-center'>
-            Внести данные о своем участке
-          </h3>
-          <p className='font-medium text-[28px]'>Координаты, площадь</p>
-          <div></div>
-          <img
-            src={MoneyIcon}
-            alt='Data Icon'
-            className='absolute left-0 bottom-0 w-[268px] translate-y-1/4 -translate-x-1/4'
-          />
+      <div className='z-10'>
+        <h2 className='text-center font-semibold text-2xl sm:text-3xl lg:text-[32px]'>
+          Преимущества <span className='text-primary'>Global Crop</span>
+        </h2>
+        <div className='flex flex-col lg:flex-row justify-around gap-8 sm:gap-12 lg:gap-8 mt-16 sm:mt-24 lg:mt-32 px-4 sm:px-8 lg:px-32'>
+          <div className='lg:pt-16'>
+            <div className='bg-[#FFFFFF73] border border-primary pt-10 sm:pt-12 pl-16 sm:pl-20 lg:pl-24 pb-6 sm:pb-8 pr-6 sm:pr-8 rounded-[25px] sm:rounded-[30px] lg:rounded-[40px] relative w-full lg:w-[670px]'>
+              <img
+                src={Banks}
+                className='absolute top-0 left-0 -translate-x-[35%] sm:-translate-x-[35%] lg:-translate-[45%] -translate-y-[30%] sm:-translate-y-[25%] w-[130px] h-[130px] sm:w-[200px] sm:h-[200px] lg:w-[233px] lg:h-[231px] object-contain rotate-[-4.26deg]'
+              />
+              <p className='font-semibold text-primary text-xl sm:text-2xl lg:text-[32px]'>
+                Банки
+              </p>
+              <p className='font-medium text-lg sm:text-xl lg:text-[28px]'>
+                Доверяют нашим данным при выдаче кредитов
+              </p>
+            </div>
+            <div className='bg-[#FFFFFF73] border border-primary pt-10 sm:pt-12 pl-16 sm:pl-20 lg:pl-24 pb-6 sm:pb-8 pr-6 sm:pr-8 rounded-[25px] sm:rounded-[30px] lg:rounded-[40px] relative w-full lg:w-[670px] mt-64'>
+              <img
+                src={Transparency}
+                className='absolute top-0 left-0 -translate-x-[35%] sm:-translate-x-[35%] lg:-translate-[45%] -translate-y-[30%] sm:-translate-y-[25%] w-[130px] h-[130px] sm:w-[200px] sm:h-[200px] lg:w-[233px] lg:h-[231px] object-contain rotate-[-4.26deg]'
+              />
+              <p className='font-semibold text-primary text-xl sm:text-2xl lg:text-[32px]'>
+                Прозрачность и надёжность
+              </p>
+              <p className='font-medium text-lg sm:text-xl lg:text-[28px]'>
+                Наша надежность и доверие
+              </p>
+            </div>
+          </div>
+          <div>
+            <div className='bg-[#FFFFFF73] border border-primary pt-10 sm:pt-12 pl-6 sm:pl-8 pb-6 sm:pb-8 pr-16 sm:pr-20 lg:pr-24 rounded-[25px] sm:rounded-[30px] lg:rounded-[40px] relative w-full lg:w-[670px]'>
+              <img
+                src={AccurateData}
+                className='absolute top-0 right-0 -translate-y-[30%] sm:-translate-y-[35%] lg:-translate-y-[40%] translate-x-[30%] sm:translate-x-[35%] lg:translate-x-[40%] w-[130px] h-[130px] sm:w-[200px] sm:h-[200px] lg:w-[233px] lg:h-[231px] object-contain rotate-[4.26deg]'
+              />
+              <p className='font-semibold text-primary text-xl sm:text-2xl lg:text-[32px]'>
+                Точные данные
+              </p>
+              <p className='font-medium text-lg sm:text-xl lg:text-[28px]'>
+                Актуальная информация о посевах
+              </p>
+            </div>
+            <div className='bg-[#FFFFFF73] border border-primary pt-10 sm:pt-12 pl-6 sm:pl-8 pb-6 sm:pb-8 pr-16 sm:pr-20 lg:pr-24 rounded-[25px] sm:rounded-[30px] lg:rounded-[40px] relative w-full lg:w-[670px] mt-44'>
+              <img
+                src={Support}
+                className='absolute top-0 right-0 -translate-y-[30%] sm:-translate-y-[35%] lg:-translate-y-[40%] translate-x-[30%] sm:translate-x-[35%] lg:translate-x-[40%] w-[140px] h-[170px] sm:w-[210px] sm:h-[250px] lg:w-[250px] lg:h-[300px] object-contain rotate-[4.26deg]'
+              />
+              <p className='font-semibold text-primary text-xl sm:text-2xl lg:text-[32px]'>
+                Поддержка
+              </p>
+              <p className='font-medium text-lg sm:text-xl lg:text-[28px]'>
+                Всегда на связи с нашими клиентами
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div
@@ -57,7 +88,7 @@ const HowItWorks = () => {
           background:
             'linear-gradient(360deg, #FFFFFF 12.61%, rgba(255, 255, 255, 0) 100%)',
         }}
-        className='w-full h-[20vh] mt-20'
+        className='w-full h-[20vh] absolute left-0 bottom-0 -z-10'
       ></div>
     </div>
   )

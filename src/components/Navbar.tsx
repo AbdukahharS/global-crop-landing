@@ -4,15 +4,14 @@ import GlobeIcon from '../assets/global.svg'
 
 const Navbar = () => {
   const links = [
-    { name: 'О проекте', href: '#' },
-    { name: 'Продукция', href: '#' },
-    { name: 'Услуги', href: '#' },
-    { name: 'Технологии', href: '#' },
-    { name: 'Контакты', href: '#' },
+    { name: 'Лойиҳа тўғрисида', href: '#' },
+    { name: 'Ҳизматларимиз', href: '#' },
+    { name: 'Технологиялар', href: '#' },
+    { name: 'Биз билан боғланиш', href: '#' },
   ]
   return (
     <div className='bg-primary text-white top-3 sm:top-7 mx-3 sm:mx-6 lg:mx-12 py-2 sm:py-2.5 px-4 sm:px-6 lg:px-9 rounded-full flex flex-row justify-between items-center absolute w-[calc(100%-24px)] sm:w-[calc(100%-48px)] lg:w-[calc(100%-96px)] gap-3 sm:gap-0'>
-      <div className='flex flex-row items-center gap-[8vw]'>
+      <div className='flex flex-row items-center gap-[4vw] 2xl:gap-[8vw]'>
         <div className='flex items-center gap-2 sm:gap-3 lg:gap-5'>
           <img
             src={GlobalCropLogo}
@@ -23,7 +22,7 @@ const Navbar = () => {
             GLOBAL CROP
           </span>
         </div>
-        <div className='hidden xl:flex items-center gap-8 lg:gap-14'>
+        <div className='hidden xl:flex items-center gap-10 2xl:gap-24'>
           {links.map((link) => (
             <a
               key={link.name}
@@ -45,7 +44,7 @@ const Navbar = () => {
             alt='Login Icon'
             className='inline-block mr-2 size-8'
           />
-          Войти
+          Кириш
         </button>
       </div>
     </div>
