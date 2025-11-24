@@ -6,7 +6,7 @@ import Banks from '../components/Banks'
 import Start from '../components/Start'
 import Footer from '../components/Footer'
 
-import LandsBg from '../assets/lands-bg.png'
+import LandsBg from '../assets/lands-bg.png';
 
 function HomePage() {
   return (
