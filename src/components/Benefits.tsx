@@ -71,7 +71,7 @@ const Benefits = () => {
   }))
 
   return (
-    <div className='relative min-h-screen px-20'>
+    <div className='relative min-h-screen px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20'>
       <img
         src={BG1}
         alt='Benefits Background'
@@ -148,18 +148,18 @@ const Benefits = () => {
             'linear-gradient(3600deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)',
         }}
       ></div>
-      <div className='mx-auto max-w-[1480px] grid grid-cols-2 auto-rows-[364px] gap-x-24 gap-y-16 mt-96'>
+      <div className='mx-auto max-w-[1480px] grid grid-cols-1 md:grid-cols-2 auto-rows-auto md:auto-rows-[300px] lg:auto-rows-[364px] gap-x-6 sm:gap-x-12 lg:gap-x-24 gap-y-8 sm:gap-y-12 lg:gap-y-16 mt-40 sm:mt-60 lg:mt-80 xl:mt-96'>
         {items.map((item, index) => (
           <React.Fragment key={index}>
-            <div className='border border-primary rounded-[40px] bg-white/70 py-7 px-9 flex flex-col'>
-              <h4 className='text-primary text-[32px] font-semibold'>
+            <div className='border border-primary rounded-3xl sm:rounded-[40px] bg-white/70 py-5 px-6 sm:py-7 sm:px-9 flex flex-col min-h-[250px] md:min-h-0'>
+              <h4 className='text-primary text-xl sm:text-2xl lg:text-[28px] xl:text-[32px] font-semibold'>
                 {item.title}
               </h4>
-              <div className='font-medium text-[22px] flex-1 flex items-center'>
+              <div className='font-medium text-base sm:text-lg lg:text-xl xl:text-[22px] flex-1 flex items-center mt-3 sm:mt-4'>
                 {item.description}
               </div>
             </div>
-            <div className='border border-primary rounded-[40px] overflow-hidden relative'>
+            <div className='border border-primary rounded-3xl sm:rounded-[40px] overflow-hidden relative min-h-[250px] md:min-h-0'>
               <img
                 src={item.img}
                 alt={item.title}
@@ -169,8 +169,8 @@ const Benefits = () => {
           </React.Fragment>
         ))}
       </div>
-      <div className='mx-auto max-w-[1480px] mt-52'>
-        <h2 className='font-medium text-[32px] text-center'>
+      <div className='mx-auto max-w-[1480px] mt-32 sm:mt-40 lg:mt-52'>
+        <h2 className='font-medium text-xl sm:text-2xl md:text-[28px] lg:text-[32px] text-center px-4'>
           {t('benefits.features.title')}{' '}
           <span className='font-semibold text-primary'>
             {t('benefits.features.title').includes('Мониторинга Посевов')
@@ -178,27 +178,33 @@ const Benefits = () => {
               : ''}
           </span>
         </h2>
-        <div className='flex flex-row gap-12 w-full mt-16'>
-          <div className='flex-1 flex flex-col h-auto gap-6'>
+        <div className='flex flex-col lg:flex-row gap-6 lg:gap-12 w-full mt-8 sm:mt-12 lg:mt-16'>
+          <div className='flex-1 flex flex-col gap-4 sm:gap-6 lg:h-[900px] xl:h-[950px]'>
             {steps.map((step, index) => (
               <div
                 key={index}
-                className={`bg-white/60 py-6 px-8 rounded-[30px] border-[1.5px] border-[#80B361] cursor-pointer transition-all duration-300 ${
+                className={`bg-white/60 py-2 px-2.5 sm:py-4 sm:px-6 rounded-2xl sm:rounded-[30px] border-[1.5px] border-[#80B361] cursor-pointer transition-all duration-300 ${
                   index === activeStep
                     ? 'flex-1 shadow-[0_0_15px_0_#3386004D]'
                     : 'flex-initial'
                 }`}
                 onClick={() => setActiveStep(index)}
               >
-                <div className='flex items-center gap-5'>
-                  <img src={step.Icon} alt={step.title} />
-                  <h3 className='font-semibold text-primary text-[22px]'>
+                <div className='flex items-center gap-3 sm:gap-5'>
+                  <img
+                    src={step.Icon}
+                    alt={step.title}
+                    className='w-6 h-6 sm:w-8 sm:h-8 flex-shrink-0'
+                  />
+                  <h3 className='font-semibold text-primary text-base sm:text-lg lg:text-xl xl:text-[22px]'>
                     {step.title}
                   </h3>
                 </div>
                 <p
-                  className={`transition-[max-height,margin-top] duration-400 overflow-hidden text-lg font-medium will-change-[margin,max-height] ${
-                    index === activeStep ? 'mt-5 max-h-96' : 'max-h-0 mt-0'
+                  className={`transition-[max-height,margin-top] duration-400 overflow-hidden text-sm sm:text-base lg:text-lg font-medium will-change-[margin,max-height] ${
+                    index === activeStep
+                      ? 'mt-3 sm:mt-5 max-h-96'
+                      : 'max-h-0 mt-0'
                   }`}
                 >
                   {step.description}
@@ -206,7 +212,7 @@ const Benefits = () => {
               </div>
             ))}
           </div>
-          <div className='flex-1 h-[740px] border-[1.5px] border-primary bg-[#EEF5FC] rounded-[40px] overflow-hidden relative'>
+          <div className='flex-none lg:flex-1 h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[740px] border-[1.5px] border-primary bg-[#EEF5FC] rounded-3xl sm:rounded-[40px] overflow-hidden relative'>
             <img
               src={images[activeStep]}
               alt={`Img${activeStep + 1}`}
