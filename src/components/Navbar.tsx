@@ -1,6 +1,6 @@
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useParams, useNavigate } from 'react-router-dom'
-import { useState } from 'react'
 import GlobalCropLogo from '../assets/globalcrop-logo.svg'
 import LoginIcon from '../assets/login.svg'
 import GlobeIcon from '../assets/global.svg'
@@ -19,8 +19,8 @@ const Navbar = () => {
   ]
 
   const languages = [
-    { code: 'uz-lat', name: "O'zbekcha (Lotin)" },
-    { code: 'uz-cyr', name: 'Ўзбекча (Кирилл)' },
+    { code: 'uz-lat', name: "O'zbekcha" },
+    { code: 'uz-cyr', name: 'Ўзбекча' },
     { code: 'ru', name: 'Русский' },
     { code: 'en', name: 'English' },
   ]

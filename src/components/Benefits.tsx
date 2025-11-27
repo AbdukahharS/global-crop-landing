@@ -10,6 +10,14 @@ import item3 from '../assets/item3.png'
 import item4 from '../assets/item4.png'
 import item5 from '../assets/item5.png'
 import Img1 from '../assets/feature1.png'
+import Img2 from '../assets/feature2.png'
+import Img3 from '../assets/feature3.png'
+import Img4 from '../assets/feature4.png'
+import Img5 from '../assets/feature5.png'
+import Img6 from '../assets/feature6.png'
+import Img7 from '../assets/feature7.png'
+import Img8 from '../assets/feature8.png'
+import Img9 from '../assets/feature9.webp'
 import ChartIcon from '../assets/Chart.svg'
 import CloudSunIcon from '../assets/Cloud Sun.svg'
 import InboxLineIcon from '../assets/Inbox Line.svg'
@@ -18,6 +26,8 @@ import PieChartIcon from '../assets/Pie Chart 2.svg'
 import SatelliteIcon from '../assets/Satellite.svg'
 import UserCircleIcon from '../assets/User Circle.svg'
 import MapPointWaveIcon from '../assets/Map Point Wave.svg'
+
+const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img9, Img8]
 
 const Benefits = () => {
   const { t } = useTranslation()
@@ -43,8 +53,8 @@ const Benefits = () => {
   ).map((step, index) => ({
     Icon: icons[index],
     title: step.title,
-    desciption: step.description,
-    image: Img1,
+    description: step.description,
+    image: images[index],
   }))
 
   const itemImages = [item1, item2, item3, item4, item5]
@@ -176,7 +186,7 @@ const Benefits = () => {
                 className={`bg-white/60 py-6 px-8 rounded-[30px] border-[1.5px] border-[#80B361] cursor-pointer transition-all duration-300 ${
                   index === activeStep
                     ? 'flex-1 shadow-[0_0_15px_0_#3386004D]'
-                    : ''
+                    : 'flex-initial'
                 }`}
                 onClick={() => setActiveStep(index)}
               >
@@ -191,15 +201,15 @@ const Benefits = () => {
                     index === activeStep ? 'mt-5 max-h-96' : 'max-h-0 mt-0'
                   }`}
                 >
-                  {step.desciption}
+                  {step.description}
                 </p>
               </div>
             ))}
           </div>
           <div className='flex-1 h-[740px] border-[1.5px] border-primary bg-[#EEF5FC] rounded-[40px] overflow-hidden relative'>
             <img
-              src={Img1}
-              alt='Img1'
+              src={images[activeStep]}
+              alt={`Img${activeStep + 1}`}
               className='absolute inset-0 w-full h-auto top-1/2 -translate-y-1/2 object-cover bg-transparent'
             />
           </div>

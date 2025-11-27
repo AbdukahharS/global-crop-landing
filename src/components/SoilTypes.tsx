@@ -1,8 +1,15 @@
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import BG from '../assets/soil-bg.png'
 import Clouds from '../assets/clouds.png'
 import Img1 from '../assets/img-1.png'
-import { useState } from 'react'
+import Img2 from '../assets/img-2.png'
+import Img3 from '../assets/img-3.png'
+import Img4 from '../assets/img-4.png'
+import Img5 from '../assets/img-5.png'
+import Img6 from '../assets/img-6.png'
+
+const images = [Img1, Img2, Img3, Img4, Img5, Img6]
 
 const SoilTypes = () => {
   const { t } = useTranslation()
@@ -63,8 +70,8 @@ const SoilTypes = () => {
           </div>
           <div className='flex-1 w-full h-full border-[1.5px] border-primary bg-[#EEF5FC] rounded-[40px] overflow-hidden relative'>
             <img
-              src={Img1}
-              alt='Img1'
+              src={images[activeStep]}
+              alt={`Img${activeStep + 1}`}
               className='absolute inset-0 w-full h-auto top-1/2 -translate-y-1/2 object-cover bg-transparent'
             />
           </div>

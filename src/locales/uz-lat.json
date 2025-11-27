@@ -22,23 +22,23 @@
     },
     {
       "title": "Sun'iy yo'ldosh ma'lumotlarini oling",
-      "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+      "description": "Dolzarb sun'iy yo'ldosh tasvirlariga darhol kirish imkoniyatiga ega bo'ling. Ekinlarni monitoring qilish va ekinlar holatini baholash, muammolarga tez javob berish uchun NDVI va boshqa o'simlik indekslaridan foydalaning."
     },
     {
-      "title": "O'z dalalaringizni qo'shing",
-      "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+      "title": "Tendentsiyalarni tahlil qiling",
+      "description": "O'simliklar va ob-havo sharoitlari haqidagi tarixiy ma'lumotlarni ko'rib chiqing. Qonuniyatlarni aniqlang va ulardan samarali qarorlar qabul qilish uchun foydalaning."
     },
     {
-      "title": "O'z dalalaringizni qo'shing",
-      "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+      "title": "Joriy risqlarni aniqlang",
+      "description": "Vegetatsiya davrida risqlarni aniqlash uchun barcha mavjud vositalardan foydalaning. Muammolar paydo bo'lishidan oldin ularning oldini oling."
     },
     {
-      "title": "O'z dalalaringizni qo'shing",
-      "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+      "title": "Kechiktirmasdan harakat qiling",
+      "description": "Ekinlar monitoringi va tahlil asosida uchastkalariga skautlar yuboring yoki dala ishlarini rejalashtiring. Qabul qilingan qarorlar natijalarini kuzatib boring."
     },
     {
-      "title": "O'z dalalaringizni qo'shing",
-      "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+      "title": "Ma'lumotlar bilan bo'lishing",
+      "description": "Dalalarning joriy holati to'g'risida individual hisobotlar tayyorlang va ularni hamkorlar va boshqa manfaatdor tomonlar bilan bo'lishing."
     }
   ],
   "howItWorks": {
@@ -92,35 +92,35 @@
         },
         {
           "title": "O'sish bosqichlari",
-          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+          "description": "Masofaviy ekin monitoringi ilovasidagi O'sish bosqichlari jadvalida madaniyat rivojlanish bosqichlariga muvofiq dalada ishlarni rejalashtiring. O'sish bosqichlari jadvali BBCH shkala va ekish sanasiga asoslangan barcha madaniyatlar uchun mavjud."
         },
         {
           "title": "Risqlar xaritasi",
-          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+          "description": "Barcha dalalaringizdagi kasalliklar, ob-havo o'zgarishlari va vegetatsion indekslar tebranishlari risqlarini nazorat qiling. Tahdidlarni erta bosqichda aniqlang, kasalliklar avj olishining oldini oling va hosilni yo'qotishlardan himoya qiling."
         },
         {
           "title": "Differentsial Kiritish Xaritalari",
-          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+          "description": "Har bir gektarning rentabelligini oshiring va differentsial kiritish xaritalari (VRA) yordamida o'g'it, pestitsidlar, urug' va suvga tejang. VRA-xaritalarni yaratish uchun turli ma'lumot manbalaridan foydalaning: NDVI, NDMI, RECI, MSAVI, relyef ma'lumotlari yoki agrotexnikadan ma'lumotlar. Yo'qotishlarni minimallashtiring va resurslarni optimallash qiling!"
         },
         {
           "title": "Ishlar Jurnali",
-          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+          "description": "Ekinlar holatini masofadan kuzating va agrotexnik tadbirlarning yer unumdorligiga ta'sirini nazorat qiling. Jamoa a'zolarining barchasi tuproqni qayta ishlash, sug'orish, agroskaut va boshqa ko'plab ishlarni o'z ichiga olgan oldingi va joriy dala ishlariga kirish huquqiga ega. Aniq dehqonchilik platformamiz bilan ma'lum uchastkalar uchun yangi vazifalarni rejalashtirish, tayinlash va ularning bajarilishini nazorat qilish oson."
         },
         {
           "title": "Hosildorlik Baholash",
-          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+          "description": "Hosildorlik va biomassani 14 kun oldinga prognoz qilish orqali asosli qarorlar qabul qiling. Funktsiya xo'jalikni boshqarish uchun qimmatli xulosalar taqdim etish uchun ekin turi, sug'orish usullari va meteorologik ma'lumotlar kabi asosiy parametrlarni tahlil qiladi."
         },
         {
           "title": "Ob-havo Tahlili",
-          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+          "description": "Aniq 14 kunlik prognozlarni oling, tarixiy ob-havo ma'lumotlarini tahlil qiling va dalalarni ekstremal sharoitlardan himoya qilish uchun harorat stressini nazorat qiling. Aniq meteorologik ma'lumotlar asosida purkash va tuproqni qayta ishlash uchun optimal vaqtni rejalashtiring. Yanada yuqori aniqlik uchun yer meteorologik stansiyalarini ulang."
         },
         {
           "title": "Avtomatik Hisobotlar",
-          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+          "description": "Barcha dalalaringiz uchun ekinlar holati to'g'risida avtomatik hisobotlarni oling. Dala operatsiyalari va ekinlar bo'yicha umumiy statistikani ko'ring. Hisobotlarda muhim parametrlarni sozlang va yangilanishlarni avtomatik ravishda oling."
         },
         {
           "title": "Jamoa Boshqaruvi",
-          "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+          "description": "Jamoa a'zolarining rollariga qarab ma'lumotlarga kirishni taqsimlang. Hamkasblar bilan o'simliklar holati, dalalar yangilanishlari va hisobotlar haqida ma'lumotlarni tez almashing."
         }
       ]
     }

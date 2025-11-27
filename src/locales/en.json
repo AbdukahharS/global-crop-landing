@@ -22,23 +22,23 @@
     },
     {
       "title": "Receive Satellite Data",
-      "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+      "description": "Instantly access up-to-date satellite imagery. Use NDVI and other vegetation indices to monitor crops and assess crop conditions, responding quickly to problems."
     },
     {
-      "title": "Add Your Fields",
-      "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+      "title": "Analyze Trends",
+      "description": "Review historical data on vegetation and weather conditions. Identify patterns and use them to make effective decisions."
     },
     {
-      "title": "Add Your Fields",
-      "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+      "title": "Identify Current Risks",
+      "description": "Use all available tools to identify risks during the growing season. Prevent problems before they occur."
     },
     {
-      "title": "Add Your Fields",
-      "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+      "title": "Act Without Delay",
+      "description": "Send scouts to sites or plan field work based on crop monitoring and analytics. Track the results of decisions made."
     },
     {
-      "title": "Add Your Fields",
-      "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+      "title": "Share Data",
+      "description": "Prepare individual reports on the current state of fields and share them with partners and other stakeholders."
     }
   ],
   "howItWorks": {
@@ -92,35 +92,35 @@
         },
         {
           "title": "Growth Phases",
-          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+          "description": "Plan field work according to crop development stages in the Growth Stages chart in the remote crop monitoring app. The Growth Stages chart is available for all crops based on the BBCH scale and sowing date."
         },
         {
           "title": "Risk Map",
-          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+          "description": "Monitor risks of diseases, weather changes, and vegetation index fluctuations across all your fields. Identify threats at early stages, prevent disease outbreaks, and protect your harvest from losses."
         },
         {
           "title": "Variable Rate Application Maps",
-          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+          "description": "Increase the profitability of each hectare and save on fertilizers, pesticides, seeds, and water using variable rate application (VRA) maps. Use various data sources to create VRA maps: NDVI, NDMI, RECI, MSAVI, terrain data, or information from agricultural practices. Minimize losses and optimize resources!"
         },
         {
           "title": "Work Log",
-          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+          "description": "Monitor crop conditions remotely and control the impact of agricultural practices on land productivity. All team members have access to previous and current field operations, including soil tillage, irrigation, agro-scouting, and much more. With our precision farming platform, it's easy to plan and assign new tasks for specific plots and monitor their execution."
         },
         {
           "title": "Yield Assessment",
-          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+          "description": "Make informed decisions by forecasting yield and biomass 14 days ahead. The feature analyzes key parameters such as crop type, irrigation methods, and weather data to provide valuable insights for farm management."
         },
         {
           "title": "Weather Analysis",
-          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+          "description": "Get accurate 14-day forecasts, analyze historical weather data, and monitor temperature stress to protect fields from extreme conditions. Plan optimal times for spraying and soil treatment based on accurate weather data. Connect ground weather stations for even greater accuracy."
         },
         {
           "title": "Automatic Reports",
-          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+          "description": "Receive automatic reports on crop conditions for all your fields. View overall statistics on field operations and crops. Configure important parameters in reports and receive updates automatically."
         },
         {
           "title": "Team Management",
-          "description": "Upload a file with plot boundaries or draw them manually. Specify information about the current and previous seasons"
+          "description": "Distribute data access based on team members' roles. Quickly share information about vegetation conditions, field updates, and reports with colleagues."
         }
       ]
     }
