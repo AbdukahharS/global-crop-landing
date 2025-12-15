@@ -1,15 +1,15 @@
 {
-  "documentTitle": "Global Crop - Qishloq xo'jaligi uchun zamonaviy texnologiyalar",
+  "documentTitle": "Global Crop - Qishloq xoʻjaligi uchun zamonaviy texnologiyalar",
   "navbar": {
-    "about": "Loyiha to'g'risida",
-    "services": "Hizmatlarimiz",
+    "about": "Loyiha toʻgʻrisida",
+    "services": "Xizmatlarimiz",
     "technologies": "Texnologiyalar",
-    "contact": "Biz bilan bog'lanish",
+    "contact": "Biz bilan bogʻlanish",
     "login": "Kirish"
   },
   "hero": {
-    "title": "qishloq xo'jaligi mahsulotlarini yetishtrishda zamonaviy texnologiyalardan foydalanish tizimi.",
-    "description": "qishloq xo'jaligida muhim qarorlarni qabul qilishda tahliliy ma'lumotlarni taqdim etuvchi tizimdir. Biz qishloq xo'jaligida fazoviy spektral ma'lumotlarga asoslangan va sun'iy intellektdan foydalangan holdagi yechimlarni ishlab chiqishga ixtisoslashgan tizim hisoblanamiz.",
+    "title": "qishloq xoʻjaligi mahsulotlarini yetishtrishda zamonaviy texnologiyalardan foydalanish tizimi.",
+    "description": "qishloq xoʻjaligida muhim qarorlarni qabul qilishda tahliliy maʼlumotlarni taqdim etuvchi tizimdir. Biz qishloq xoʻjaligida fazoviy spektral maʼlumotlarga asoslangan va sunʼiy intellektdan foydalangan holdagi yechimlarni ishlab chiqishga ixtisoslashgan tizim hisoblanamiz.",
     "cta": "Biz bilan birga yer maydonlari va hosil monitoringini mobil qurilmangiz orqali yuqori aniqlikda amalga oshiring."
   },
   "soilTypes": {
@@ -17,128 +17,128 @@
   },
   "steps": [
     {
-      "title": "O'z dalalaringizni qo'shing",
-      "description": "Uchastkalar chegaralari bilan faylni yuklang yoki ularni qo'lda chizing. Joriy va oldingi mavsumlar haqida ma'lumot ko'rsating"
+      "title": "Yer maydoni konturini kiriting",
+      "description": "Maydon konturi koʻrsatkichlarini kiriting yoki maydon chegaralarini chizib belgilang"
     },
     {
-      "title": "Sun'iy yo'ldosh ma'lumotlarini oling",
-      "description": "Dolzarb sun'iy yo'ldosh tasvirlariga darhol kirish imkoniyatiga ega bo'ling. Ekinlarni monitoring qilish va ekinlar holatini baholash, muammolarga tez javob berish uchun NDVI va boshqa o'simlik indekslaridan foydalaning."
+      "title": "Sunʼiy yoʻldoshdan olingan maʼlumotlarga ega boʻling",
+      "description": "Shu ondayoq eng faol sunʼiy yoʻldosh orqali olingan tasvirlarga ega boʻling. Mavjud muammolarni hal qilish uchun NDVI va boshqa indekslardan foydalangan holda ekin holatini baholang va monitoring qiling."
     },
     {
       "title": "Tendentsiyalarni tahlil qiling",
-      "description": "O'simliklar va ob-havo sharoitlari haqidagi tarixiy ma'lumotlarni ko'rib chiqing. Qonuniyatlarni aniqlang va ulardan samarali qarorlar qabul qilish uchun foydalaning."
+      "description": "Oʻsimliklar va ob-havo sharoitlari haqidagi avvalgi davrlar maʼlumotlarini koʻrib chiqing. Ulardan samarali qarorlar qabul qilish uchun foydalaning."
     },
     {
-      "title": "Joriy risqlarni aniqlang",
-      "description": "Vegetatsiya davrida risqlarni aniqlash uchun barcha mavjud vositalardan foydalaning. Muammolar paydo bo'lishidan oldin ularning oldini oling."
+      "title": "Joriy xavf-xatarlarni aniqlang",
+      "description": "Vegetatsiya davrida xavf-xatarlarni aniqlash uchun barcha mavjud vositalardan foydalaning. Muammolar paydo boʻlishidan oldin ularni oldini oling."
     },
     {
-      "title": "Kechiktirmasdan harakat qiling",
-      "description": "Ekinlar monitoringi va tahlil asosida uchastkalariga skautlar yuboring yoki dala ishlarini rejalashtiring. Qabul qilingan qarorlar natijalarini kuzatib boring."
+      "title": "Tezkor harakat qiling",
+      "description": "Ekinlar monitoringi va tahlili asosida dala ishlarini rejalashtiring va dala maydonlariga mutaxassislarni safarbar qiling. Qabul qilingan qarorlar natijalarini kuzatib boring."
     },
     {
-      "title": "Ma'lumotlar bilan bo'lishing",
-      "description": "Dalalarning joriy holati to'g'risida individual hisobotlar tayyorlang va ularni hamkorlar va boshqa manfaatdor tomonlar bilan bo'lishing."
+      "title": "Maʼlumotlar bilan boʻlishing",
+      "description": "Dalalarning joriy holati toʻgʻrisida individual hisobotlar tayyorlang va ularni hamkorlar va boshqa manfaatdor tomonlar bilan boʻlishing."
     }
   ],
   "howItWorks": {
-    "title": "Afzalliklar",
+    "title": "Bizning afzalliklarimiz",
     "banks": {
       "title": "Banklar",
-      "description": "Kredit berishda bizning ma'lumotlarimizga ishonadi"
+      "description": "Banklar mizojlarga kredit ajratish jarayonida bizning tizim maʼlumotlaridan foydalanadi."
     },
     "transparency": {
       "title": "Shaffoflik va ishonchlilik",
-      "description": "Bizning ishonchliligimiz va ishonch"
+      "description": "Maʼlumotlarimiz mutlaq ishonchli hisoblanib, shaffoflik asosida amalga oshirilgan."
     },
     "accurateData": {
-      "title": "Aniq ma'lumotlar",
-      "description": "Ekish haqida dolzarb ma'lumot"
+      "title": "Aniq maʼlumotlar",
+      "description": "Sunʼiy yoʻldosh tahlili va qishloq xoʻjaligi sensorlari"
     },
     "support": {
-      "title": "Qo'llab-quvvatlash",
-      "description": "Mijozlarimiz bilan doimo aloqadamiz"
+      "title": "Qoʻllab-quvvatlash",
+      "description": "Butun dunyodagi fermerlar uchun"
     }
   },
   "benefits": {
     "items": [
       {
-        "title": "Ekinlarning kompleks tahlilini oling",
-        "description": "Biz turli manbalardan kompleks ma'lumotlar to'playmiz va ularni tushunarli va ochiq ma'lumotga aylantiramiz. Tez va samarali qarorlar qabul qilish uchun dalalar tarixini, ob-havo sharoitlarini va ekinlar sog'ligini tahlil qiling."
+        "title": "Ekinlar haqidagi kompleks tahlilga ega boʻling",
+        "description": "Biz turli manbalardan kompleks maʼlumotlar toʻplaymiz va ularni tushunarli va ochiq maʼlumotga aylantiramiz. Tez va samarali qarorlar qabul qilish uchun dalalar tarixini, ob-havo sharoitlarini va ekinlar sogʻligini tahlil qiling."
       },
       {
-        "title": "Sun'iy yo'ldosh tasvirlari yordamida ekinlar sog'ligini kuzating",
-        "description": "Dalaga ortiqcha chiqishlarni unutib qo'ying. Ekinlarni sun'iy yo'ldosh monitoringi o'simliklar holatini kuzatishga, muammoli uchastkalarni aniqlashga, o'simlik va tuproqdagi namlik darajasini nazorat qilishga yordam beradi - barchasi qurilmangiz ekranidan."
+        "title": "Sunʼiy yoʻldosh tasvirlari yordamida ekinlar sogʻligini kuzating",
+        "description": "Sunʼiy yoʻldosh orqali monitoring qilish tizmi Sizga dalaga bormagan holda ekinlarni holatini kuzatishga, muammoli maydonlarni aniqlashga, oʻsimlik va tuproqdagi namlik darajasini nazorat qilishga yordam beradi - barchasi Sizning mobil qurilmangiz ekranidan."
       },
       {
-        "title": "Risqlar haqida o'z vaqtida xabarnomalar oling",
-        "description": "Biz sizni potentsial tahdidlar jiddiy muammolarga aylanishidan oldin ogohlantriramiz. O'simliklarning holatidagi o'zgarishlarni nazorat qiling va dalalaringiz va hosilingizni himoya qiling."
+        "title": "Xavf-xatarlar haqida oʻz vaqtida xabarnomalar oling",
+        "description": "Biz sizni potentsial tahdidlar jiddiy muammolarga aylanishidan oldin ogohlantriramiz. Oʻsimliklarning holatidagi oʻzgarishlarni nazorat qiling va dalalaringiz va hosilingizni himoya qiling."
       },
       {
-        "title": "Resurslar foydalanishni optimallashtiring",
-        "description": "Ortiqcha resurslarni sarflamang! O'g'it, suv, urug' va yoqilg'ini tejash uchun differentsial kiritish xaritalari (VRA)dan foydalaning. Kamroq sarflang - ko'proq yig'ing."
+        "title": "Resurslardan foydalanishni maqbullashtiring",
+        "description": "Ortiqcha resurslarni sarflamang! Mineral oʻgʻit, suv, urugʻ va yoqilgʻini tejash uchun \"differentsial kiritish xaritalari\" (VRA)dan foydalaning. Kamroq harajat qiling - koʻproq hosil oling."
       },
       {
-        "title": "Shaxsiy hisobotlarni sozlang",
-        "description": "Dalalar haqidagi ma'lumotlarga qulay kirish uchun shaxsiy hisobotlarni sozlang. Bir necha klik bilan jamoa va hamkorlar bilan hisobotlarni shakllantiring va ulashing."
+        "title": "Individual hisobotlarni shakllantiring",
+        "description": "Oʻzingizga kerakli maʼlumotlarga oson ega boʻlish uchun individual hisobotlarni sozlang. Bir necha klik bilan jamoa va hamkorlar bilan hisobotlarni shakllantiring va ulashing."
       }
     ],
     "features": {
-      "title": "Ekishlarni Monitoring qilish uchun Platformamizning Top Imkoniyatlari",
+      "title": "<span style=\"font-weight: 600; color: oklch(54.7% 0.17 138.3);\">Ekinlar monitoringi</span> uchun platformamizning top xususiyatlari",
       "list": [
         {
-          "title": "Masofadan Sun'iy Yo'ldosh Dala Holatini Monitoring",
-          "description": "Dalaga chiqmasdan turli zonalarda o'simlik holatini kuzating. Oqilona qarorlar qabul qilish uchun 10 ta tayyor vegetatsion indeksdan foydalaning. Bulutlar va soyalarsiz muntazam va yuqori aniqlikdagi Sentinel-2 va PlanetScope suratlar tufayli siz 3 m gacha o'lchamdagi ekinlarni real vaqtda kuzatishingiz mumkin, bu har qanday tahdidlarga tez javob berishga imkon beradi."
+          "title": "Sunʼiy yoʻldosh yordamida masofadan turib dala holatini monitoring qilsih",
+          "description": "Dalaga chiqmasdan turli zonalarda oʻsimlik holatini kuzating. Oqilona qarorlar qabul qilish uchun 10 ta tayyor vegetatsion indeksdan foydalaning. Sentinel-2 va PlanetScope sunʼiy yoʻdoshlarida olingan bulutlar va soyalarsiz, muntazam va yuqori aniqlikdagi suratlar orqali siz ekinlarni 3 m gacha oʻlchamdagi real vaqtda kuzatishingiz mumkin, bu har qanday tahdidlarga tez javob berishga imkon beradi."
         },
         {
-          "title": "O'sish bosqichlari",
-          "description": "Masofaviy ekin monitoringi ilovasidagi O'sish bosqichlari jadvalida madaniyat rivojlanish bosqichlariga muvofiq dalada ishlarni rejalashtiring. O'sish bosqichlari jadvali BBCH shkala va ekish sanasiga asoslangan barcha madaniyatlar uchun mavjud."
+          "title": "Oʻsish bosqichlari",
+          "description": "Masofaviy ekin monitoringi ilovasida ekinlarni rivojlanish bosqichlariga muvofiq dalada agrotexnik tadbirlarni rejalashtiring."
         },
         {
-          "title": "Risqlar xaritasi",
-          "description": "Barcha dalalaringizdagi kasalliklar, ob-havo o'zgarishlari va vegetatsion indekslar tebranishlari risqlarini nazorat qiling. Tahdidlarni erta bosqichda aniqlang, kasalliklar avj olishining oldini oling va hosilni yo'qotishlardan himoya qiling."
+          "title": "Xavf-xatarlar xaritasi",
+          "description": "Dalagizdagi kasalliklar, ob-havo oʻzgarishlari va vegetatsion indekslar tebranishlari xatarlarini nazorat qiling. Tahdidlarni erta bosqichda aniqlang, kasalliklar avj olishining oldini oling va hosilni yoʻqotishlardan himoya qiling."
         },
         {
-          "title": "Differentsial Kiritish Xaritalari",
-          "description": "Har bir gektarning rentabelligini oshiring va differentsial kiritish xaritalari (VRA) yordamida o'g'it, pestitsidlar, urug' va suvga tejang. VRA-xaritalarni yaratish uchun turli ma'lumot manbalaridan foydalaning: NDVI, NDMI, RECI, MSAVI, relyef ma'lumotlari yoki agrotexnikadan ma'lumotlar. Yo'qotishlarni minimallashtiring va resurslarni optimallash qiling!"
+          "title": "Differentsial kiritish xaritalari",
+          "description": "Har bir gektarning rentabelligini oshiring va differentsial kiritish xaritalari (VRA) yordamida mineral oʻgʻit, pestitsidlar, urugʻ va suvni tejang. VRA-xaritalarni yaratish uchun turli maʼlumot manbalaridan foydalaning: NDVI, NDMI, RECI, MSAVI, relyef maʼlumotlari yoki agrotexnik maʼlumotlar. Yoʻqotishlarni kamaytiring va resurslarni maqbullashtiring!"
         },
         {
-          "title": "Ishlar Jurnali",
-          "description": "Ekinlar holatini masofadan kuzating va agrotexnik tadbirlarning yer unumdorligiga ta'sirini nazorat qiling. Jamoa a'zolarining barchasi tuproqni qayta ishlash, sug'orish, agroskaut va boshqa ko'plab ishlarni o'z ichiga olgan oldingi va joriy dala ishlariga kirish huquqiga ega. Aniq dehqonchilik platformamiz bilan ma'lum uchastkalar uchun yangi vazifalarni rejalashtirish, tayinlash va ularning bajarilishini nazorat qilish oson."
+          "title": "Ishlar jurnali",
+          "description": "Ekinlar holatini masofadan kuzating va agrotexnik tadbirlarning yer unumdorligiga taʼsirini nazorat qiling. Biz bilan birga maydonlar uchun yangi vazifalarni rejalashtirish va ularning bajarilishini kuzatib boring."
         },
         {
-          "title": "Hosildorlik Baholash",
-          "description": "Hosildorlik va biomassani 14 kun oldinga prognoz qilish orqali asosli qarorlar qabul qiling. Funktsiya xo'jalikni boshqarish uchun qimmatli xulosalar taqdim etish uchun ekin turi, sug'orish usullari va meteorologik ma'lumotlar kabi asosiy parametrlarni tahlil qiladi."
+          "title": "Hosildorlik baholash",
+          "description": "Hosildorlik va biomassani 14 kun oldinga prognoz qilish orqali asosli qarorlar qabul qiling. Funktsiya ekin turi, sugʻorish usullari va meteorologik maʼlumotlar kabi asosiy koʻrsatkichlarni tahlil qiladi."
         },
         {
-          "title": "Ob-havo Tahlili",
-          "description": "Aniq 14 kunlik prognozlarni oling, tarixiy ob-havo ma'lumotlarini tahlil qiling va dalalarni ekstremal sharoitlardan himoya qilish uchun harorat stressini nazorat qiling. Aniq meteorologik ma'lumotlar asosida purkash va tuproqni qayta ishlash uchun optimal vaqtni rejalashtiring. Yanada yuqori aniqlik uchun yer meteorologik stansiyalarini ulang."
+          "title": "Ob-havo tahlili",
+          "description": "Aniq 14 kunlik prognozlarni oling, avvalgi ob-havo maʼlumotlarini tahlil qiling va dalalarni ekstremal sharoitlardan himoya qilish uchun harorat stressini nazorat qiling. Aniq meteorologik maʼlumotlar asosida tuproqqa ishlov berish uchun optimal vaqtni rejalashtiring. Yanada yuqori aniqlik uchun yer meteorologik stansiyalarini ulang."
         },
         {
-          "title": "Avtomatik Hisobotlar",
-          "description": "Barcha dalalaringiz uchun ekinlar holati to'g'risida avtomatik hisobotlarni oling. Dala operatsiyalari va ekinlar bo'yicha umumiy statistikani ko'ring. Hisobotlarda muhim parametrlarni sozlang va yangilanishlarni avtomatik ravishda oling."
+          "title": "Avtomatik hisobotlar",
+          "description": "Barcha dalalaringiz boʻyicha ekinlar holati toʻgʻrisida avtomatik hisobotlarga ega boʻling. Agrotexnik tadbirlar va ekinlar boʻyicha umumiy statistikani koʻring. Hisobotlarda muhim koʻrsatkichlarni sozlang va avtomatik ravishda oling."
         },
         {
-          "title": "Jamoa Boshqaruvi",
-          "description": "Jamoa a'zolarining rollariga qarab ma'lumotlarga kirishni taqsimlang. Hamkasblar bilan o'simliklar holati, dalalar yangilanishlari va hisobotlar haqida ma'lumotlarni tez almashing."
+          "title": "Jamoa boshqaruvi",
+          "description": "Jamoa aʼzolarining rollariga qarab maʼlumotlar bazasiga kirishni taqsimlang. Hamkasblar bilan oʻsimliklar holati, dalalar va hisobotlar haqida maʼlumotlarni tez almashing."
         }
       ]
     }
   },
   "banks": {
     "title": "Banklar va hamkorlar uchun",
-    "description": "qishloq xo'jaligi yerlarini baholash va kredit berishda risqlarni minimallash uchun obyektiv ma'lumotlar taqdim etadi.",
-    "cta": "Hamkorlik bo'limi bilan bog'lanish"
+    "description": "qishloq xoʻjaligi yerlarini baholash va kredit berishda xavf-xatarlarni kamaytirish uchun holisona maʼlumotlar taqdim etadi.",
+    "cta": "Hamkorlik boʻlimi bilan bogʻlanish"
   },
   "start": {
-    "title": "Bugun o'z yeringizning tahlili bilan boshlang",
+    "title": "Hoziroq oʻz yeringiz tahlilini boshlang",
     "subtitle": "Yangi foydalanuvchilar uchun birinchi hisobot bepul",
-    "cta": "Uchastkani tahlil uchun yuborish"
+    "cta": "Maydonni tahlil uchun yuborish"
   },
   "footer": {
     "home": "Bosh sahifa",
     "about": "Biz haqimizda",
-    "shop": "Do'kon",
+    "shop": "DAloqa uchun kontaktlar",
     "privacy": "Maxfiylik"
   }
 }

@@ -23,7 +23,7 @@ function App() {
   }, [t, lang])
 
   return (
-    <div className='pt-[100vh]'>
+    <div className='pt-[80vh]'>
       <Navbar />
       <Outlet />
     </div>

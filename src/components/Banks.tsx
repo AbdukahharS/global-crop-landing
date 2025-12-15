@@ -1,6 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import LooperLeft from '../assets/looper-left.svg'
-import LooperRight from '../assets/looper-right.svg'
 import AgrobankLogo from '../assets/agrobank-logo-full.svg'
 import AngleRight from '../assets/angle-right.svg'
 
@@ -8,17 +6,7 @@ const Banks = () => {
   const { t } = useTranslation()
 
   return (
-    <div className='relative pb-10 px-4 sm:px-6 pt-44'>
-      <img
-        src={LooperLeft}
-        alt=''
-        className='absolute left-0 top-1/2 transform -translate-y-1/2 -z-10 hidden lg:block'
-      />
-      <img
-        src={LooperRight}
-        alt=''
-        className='absolute right-0 top-1/2 transform -translate-y-1/3 -z-10 hidden lg:block'
-      />
+    <div className='relative pb-10 px-4 sm:px-6 pt-96'>
       <h2 className='text-center font-semibold text-2xl sm:text-3xl lg:text-[32px] px-4'>
         <span className='text-primary'>{t('banks.title')}</span>
       </h2>
@@ -30,7 +18,7 @@ const Banks = () => {
       <img
         src={AgrobankLogo}
         alt=''
-        className='mx-auto mt-10 sm:mt-12 lg:mt-16 w-auto h-12 sm:h-16 lg:h-auto'
+        className='mx-auto mt-10 sm:mt-12 lg:mt-28 w-auto h-12 sm:h-16 lg:h-auto'
       />
       <button className='bg-primary text-white font-semibold text-base sm:text-lg lg:text-xl flex flex-row items-center justify-center px-8 sm:px-12 lg:px-14 py-3 sm:py-4 lg:py-[18px] rounded-full gap-4 sm:gap-5 lg:gap-6 mt-12 sm:mt-16 lg:mt-20 mx-auto w-full sm:w-auto'>
         <span className='text-center'>{t('banks.cta')}</span>

@@ -84,7 +84,7 @@
       }
     ],
     "features": {
-      "title": "Top Features of Our Platform for Crop Monitoring",
+      "title": "Top Features of Our Platform for <span style=\"font-weight: 600; color: oklch(54.7% 0.17 138.3);\">Crop Monitoring</span>",
       "list": [
         {
           "title": "Remote Satellite Field Condition Monitoring",

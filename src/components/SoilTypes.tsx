@@ -1,19 +1,26 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import BG from '../assets/soil-bg.png'
-import Clouds from '../assets/clouds.png'
 import Img1 from '../assets/img-1.png'
 import Img2 from '../assets/img-2.png'
 import Img3 from '../assets/img-3.png'
 import Img4 from '../assets/img-4.png'
 import Img5 from '../assets/img-5.png'
 import Img6 from '../assets/img-6.png'
-
-const images = [Img1, Img2, Img3, Img4, Img5, Img6]
+import Img1Lat from '../assets/img-1 lat.png'
+import Img2Lat from '../assets/img-2 lat.png'
+import Img3Lat from '../assets/img-3 lat.png'
+import Img4Lat from '../assets/img-4 lat.png'
+import Img5Lat from '../assets/img-5 lat.png'
+import Img6Lat from '../assets/img-6 lat.png'
 
 const SoilTypes = () => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [activeStep, setActiveStep] = useState(0)
+
+  const isLatinLocale = i18n.language === 'en' || i18n.language === 'uz-lat'
+  const images = isLatinLocale
+    ? [Img1Lat, Img2Lat, Img3Lat, Img4Lat, Img5Lat, Img6Lat]
+    : [Img1, Img2, Img3, Img4, Img5, Img6]
 
   const steps = t('steps', { returnObjects: true }) as Array<{
     title: string
@@ -22,18 +29,6 @@ const SoilTypes = () => {
 
   return (
     <div className='relative min-h-screen'>
-      <img
-        src={BG}
-        alt='Soil Types Background'
-        className='-z-10 w-screen h-screen object-cover absolute inset-0'
-      />
-      <div
-        className='absolute inset-0 w-full top-0 h-[20vh]'
-        style={{
-          background:
-            'linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)',
-        }}
-      ></div>
       <div className='z-10 relative max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-5 sm:py-8 lg:py-12'>
         <h2 className='text-primary font-semibold text-xl sm:text-2xl md:text-[28px] lg:text-[32px] text-center'>
           {t('soilTypes.title')}
@@ -77,11 +72,6 @@ const SoilTypes = () => {
           </div>
         </div>
       </div>
-      <img
-        src={Clouds}
-        alt='Clouds'
-        className='absolute w-full h-auto bottom-0 left-0 translate-y-[50%] z-[1] pointer-events-none'
-      />
     </div>
   )
 }
