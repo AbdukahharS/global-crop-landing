@@ -15,7 +15,7 @@ const HowItWorks = () => {
             <div className='bg-[#FFFFFF73] border border-primary pt-8 sm:pt-10 lg:pt-12 pl-12 sm:pl-16 md:pl-20 lg:pl-24 pb-6 sm:pb-8 pr-6 sm:pr-8 rounded-[25px] sm:rounded-[30px] lg:rounded-[40px] relative w-full max-w-full lg:max-w-[670px]'>
               <img
                 src={Banks}
-                className='absolute top-0 left-0 -translate-x-[30%] sm:-translate-x-[35%] lg:-translate-x-[50%] -translate-y-[25%] sm:-translate-y-[30%] w-[110px] h-[110px] sm:w-[150px] sm:h-[150px] md:w-[200px] md:h-[200px] lg:w-[233px] lg:h-[231px] object-contain rotate-[-4.26deg]'
+                className='absolute top-0 left-0 -translate-x-[35%] sm:-translate-x-[35%] lg:-translate-x-[50%] -translate-y-[30%] sm:-translate-y-[30%] w-[110px] h-[110px] sm:w-[150px] sm:h-[150px] md:w-[200px] md:h-[200px] lg:w-[233px] lg:h-[231px] object-contain rotate-[-4.26deg]'
               />
               <p className='font-semibold text-primary text-lg sm:text-xl md:text-2xl lg:text-[28px] xl:text-[32px]'>
                 {t('howItWorks.banks.title')}
@@ -28,7 +28,7 @@ const HowItWorks = () => {
             <div className='bg-[#FFFFFF73] border border-primary pt-8 sm:pt-10 lg:pt-12 pl-6 sm:pl-8 pb-6 sm:pb-8 pr-12 sm:pr-16 md:pr-20 lg:pr-24 rounded-[25px] sm:rounded-[30px] lg:rounded-[40px] relative w-full max-w-full lg:max-w-[670px]'>
               <img
                 src={Support}
-                className='absolute top-0 left-0 -translate-x-[35%] sm:-translate-x-[40%] lg:-translate-x-[60%] -translate-y-[25%] sm:-translate-y-[45%] w-[120px] h-[140px] sm:w-[180px] sm:h-[210px] md:w-[210px] md:h-[250px] lg:w-[250px] lg:h-[300px] object-contain rotate-[4.26deg]'
+                className='absolute top-0 left-0 -translate-x-[50%] lg:-translate-x-[60%] -translate-y-[40%] sm:-translate-y-[45%] w-[120px] h-[140px] sm:w-[180px] sm:h-[210px] md:w-[210px] md:h-[250px] lg:w-[250px] lg:h-[300px] object-contain rotate-[4.26deg]'
               />
               <p className='font-semibold text-primary text-lg sm:text-xl md:text-2xl lg:text-[28px] xl:text-[32px]'>
                 {t('howItWorks.support.title')}

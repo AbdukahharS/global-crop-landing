@@ -6,7 +6,7 @@ const Banks = () => {
   const { t } = useTranslation()
 
   return (
-    <div className='relative pb-10 px-4 sm:px-6 pt-96'>
+    <div className='relative pb-10 px-4 sm:px-6 pt-40 lg:pt-96'>
       <h2 className='text-center font-semibold text-2xl sm:text-3xl lg:text-[32px] px-4'>
         <span className='text-primary'>{t('banks.title')}</span>
       </h2>

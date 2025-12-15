@@ -61,12 +61,12 @@ const Navbar = () => {
           {/* Hamburger menu for mobile/tablet */}
           <button
             onClick={() => setShowMobileMenu(!showMobileMenu)}
-            className='xl:hidden flex flex-col gap-1 p-2'
+            className='xl:hidden flex flex-col gap-1 p-2 relative'
             aria-label='Toggle menu'
           >
-            <span className='w-5 h-0.5 bg-white transition-all'></span>
-            <span className='w-5 h-0.5 bg-white transition-all'></span>
-            <span className='w-5 h-0.5 bg-white transition-all'></span>
+            <span className={`w-5 h-0.5 bg-white transition-all duration-300 ${showMobileMenu ? 'rotate-45 translate-y-[5px]' : ''}`}></span>
+            <span className={`w-5 h-0.5 bg-white transition-all duration-300 ${showMobileMenu ? 'opacity-0' : 'opacity-100'}`}></span>
+            <span className={`w-5 h-0.5 bg-white transition-all duration-300 ${showMobileMenu ? '-rotate-45 -translate-y-[5px]' : ''}`}></span>
           </button>
 
           <div className='relative'>
@@ -79,10 +79,10 @@ const Navbar = () => {
             {showLangMenu && (
               <>
                 <div
-                  className='fixed inset-0 z-40'
+                  className='fixed inset-0 z-40 animate-[fadeIn_0.2s_ease-in-out]'
                   onClick={() => setShowLangMenu(false)}
                 />
-                <div className='absolute top-full right-0 sm:translate-x-1/2 mt-3 bg-white text-black rounded-2xl shadow-2xl py-2 min-w-[180px] sm:min-w-[200px] z-50 border border-gray-100 overflow-hidden'>
+                <div className='absolute top-full right-0 sm:translate-x-1/2 mt-3 bg-white text-black rounded-2xl shadow-2xl py-2 min-w-[180px] sm:min-w-[200px] z-50 border border-gray-100 overflow-hidden animate-[slideDown_0.3s_ease-out]'>
                   {languages.map((language, index) => (
                     <button
                       key={language.code}
@@ -92,6 +92,7 @@ const Navbar = () => {
                           ? 'bg-primary/10 text-primary font-semibold border-l-4 border-primary'
                           : 'hover:bg-gray-50 border-l-4 border-transparent'
                       } ${index !== 0 ? 'border-t border-gray-100' : ''}`}
+                      style={{ animationDelay: `${index * 50}ms` }}
                     >
                       <div className='flex items-center justify-between'>
                         <span className='text-sm sm:text-base'>{language.name}</span>
@@ -130,10 +131,10 @@ const Navbar = () => {
       {showMobileMenu && (
         <>
           <div
-            className='fixed inset-0 z-40'
+            className='fixed inset-0 z-40 animate-[fadeIn_0.2s_ease-in-out]'
             onClick={() => setShowMobileMenu(false)}
           />
-          <div className='xl:hidden fixed top-[60px] sm:top-[90px] left-3 right-3 sm:left-6 sm:right-6 bg-white text-black rounded-2xl shadow-2xl py-4 z-50 border border-gray-100'>
+          <div className='xl:hidden fixed top-[70px] sm:top-[90px] left-3 right-3 sm:left-6 sm:right-6 bg-white text-black rounded-2xl shadow-2xl py-4 z-50 border border-gray-100 animate-[slideDown_0.3s_ease-out]'>
             <div className='flex flex-col gap-2'>
               {links.map((link) => (
                 <a
