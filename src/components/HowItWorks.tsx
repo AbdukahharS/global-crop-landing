@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next'
-import Banks from '../assets/banks.png'
-import AccurateData from '../assets/accurate-data.png'
-import Support from '../assets/support.png'
-import Transparency from '../assets/transparency.png'
+import Banks from '../assets/banks.webp'
+import AccurateData from '../assets/accurate-data.webp'
+import Support from '../assets/support.webp'
+import Transparency from '../assets/transparency.webp'
 
 const HowItWorks = () => {
   const { t } = useTranslation()
