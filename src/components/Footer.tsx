@@ -54,29 +54,29 @@ const Footer = () => {
           </button>
         </div>
         <div className='grid grid-cols-2 sm:grid-cols-4 gap-x-4 gap-y-6 sm:gap-12 lg:gap-28 text-center lg:text-left'>
-          <div className='text-base sm:text-lg font-medium flex flex-col gap-3 sm:gap-4'>
-            <p className='font-semibold'>{t('footer.home')}</p>
+          <div className='text-base sm:text-lg font-medium flex flex-col gap-3 sm:gap-4 [&>p]:opacity-0'>
+            <span className='font-semibold'>{t('footer.home')}</span>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
           </div>
-          <div className='text-base sm:text-lg font-medium flex flex-col gap-3 sm:gap-4'>
-            <p className='font-semibold'>{t('footer.about')}</p>
+          <div className='text-base sm:text-lg font-medium flex flex-col gap-3 sm:gap-4  [&>p]:opacity-0'>
+            <span className='font-semibold'>{t('footer.about')}</span>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
           </div>
-          <div className='text-base sm:text-lg font-medium flex flex-col gap-3 sm:gap-4'>
-            <p className='font-semibold'>{t('footer.shop')}</p>
+          <div className='text-base sm:text-lg font-medium flex flex-col gap-3 sm:gap-4 [&>p]:opacity-0'>
+            <span className='font-semibold'>{t('footer.shop')}</span>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
           </div>
-          <div className='text-base sm:text-lg font-medium flex flex-col gap-3 sm:gap-4'>
-            <p className='font-semibold'>{t('footer.privacy')}</p>
+          <div className='text-base sm:text-lg font-medium flex flex-col gap-3 sm:gap-4 [&>p]:opacity-0'>
+            <span className='font-semibold'>{t('footer.privacy')}</span>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>

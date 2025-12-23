@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
-import AgrobankLogo from '../assets/agrobank-logo-full.svg'
-import AngleRight from '../assets/angle-right.svg'
+// import AgrobankLogo from '../assets/agrobank-logo-full.svg'
+// import AngleRight from '../assets/angle-right.svg'
 
 const Banks = () => {
   const { t } = useTranslation()
@@ -15,7 +15,7 @@ const Banks = () => {
           <span className='text-primary'>Global Crop</span> {t('banks.description')}
         </p>
       </div>
-      <img
+      {/* <img
         src={AgrobankLogo}
         alt=''
         className='mx-auto mt-10 sm:mt-12 lg:mt-28 w-auto h-12 sm:h-16 lg:h-auto'
@@ -23,7 +23,7 @@ const Banks = () => {
       <button className='bg-primary text-white font-semibold text-base sm:text-lg lg:text-xl flex flex-row items-center justify-center px-8 sm:px-12 lg:px-14 py-3 sm:py-4 lg:py-[18px] rounded-full gap-4 sm:gap-5 lg:gap-6 mt-12 sm:mt-16 lg:mt-20 mx-auto w-full sm:w-auto'>
         <span className='text-center'>{t('banks.cta')}</span>
         <img src={AngleRight} alt='' className='w-4 h-4 sm:w-5 sm:h-5' />
-      </button>
+      </button> */}
     </div>
   )
 }
