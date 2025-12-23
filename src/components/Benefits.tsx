@@ -85,7 +85,7 @@ const Benefits = () => {
   }))
 
   return (
-    <div className='relative min-h-screen px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20'>
+    <div id="about" className='relative min-h-screen px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20'>
       <div className='mx-auto max-w-[1480px] grid grid-cols-1 md:grid-cols-2 auto-rows-auto md:auto-rows-[300px] lg:auto-rows-[364px] gap-x-6 sm:gap-x-12 lg:gap-x-24 gap-y-8 sm:gap-y-12 lg:gap-y-16 mt-40 sm:mt-60 lg:mt-80 xl:mt-96'>
         {items.map((item, index) => (
           <React.Fragment key={index}>
@@ -107,7 +107,7 @@ const Benefits = () => {
           </React.Fragment>
         ))}
       </div>
-      <div className='mx-auto max-w-[1480px] mt-32 sm:mt-40 lg:mt-52'>
+      <div id="technologies" className='mx-auto max-w-[1480px] mt-32 sm:mt-40 lg:mt-52'>
         <h2 className='font-medium text-xl sm:text-2xl md:text-[28px] lg:text-[32px] text-center px-4' dangerouslySetInnerHTML={{ __html:  t('benefits.features.title')}}>
         </h2>
         <div className='flex flex-col lg:flex-row gap-6 lg:gap-12 w-full mt-8 sm:mt-12 lg:mt-16'>

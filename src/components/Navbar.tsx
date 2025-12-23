@@ -13,11 +13,21 @@ const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false)
 
   const links = [
-    { name: t('navbar.about'), href: '#' },
-    { name: t('navbar.services'), href: '#' },
-    { name: t('navbar.technologies'), href: '#' },
-    { name: t('navbar.contact'), href: '#' },
+    { name: t('navbar.about'), href: '#about' },
+    { name: t('navbar.services'), href: '#services' },
+    { name: t('navbar.technologies'), href: '#technologies' },
+    { name: t('navbar.contact'), href: '#contact' },
   ]
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault()
+    const targetId = href.replace('#', '')
+    const element = document.getElementById(targetId)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+    setShowMobileMenu(false)
+  }
 
   const languages = [
     { code: 'uz-lat', name: "O'zbekcha" },
@@ -50,6 +60,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
+                onClick={(e) => handleNavClick(e, link.href)}
                 className='text-white font-medium hover:underline text-base lg:text-lg whitespace-nowrap'
               >
                 {link.name}
@@ -141,7 +152,7 @@ const Navbar = () => {
                   key={link.name}
                   href={link.href}
                   className='px-5 py-3 font-medium hover:bg-gray-50 transition-colors border-l-4 border-transparent hover:border-primary'
-                  onClick={() => setShowMobileMenu(false)}
+                  onClick={(e) => handleNavClick(e, link.href)}
                 >
                   {link.name}
                 </a>

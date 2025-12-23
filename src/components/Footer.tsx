@@ -9,7 +9,7 @@ const Footer = () => {
   const { t } = useTranslation()
 
   return (
-    <footer className='bg-primary text-white flex flex-col items-center py-10 sm:py-12 lg:py-16 rounded-t-[30px] sm:rounded-t-[45px] lg:rounded-t-[60px] px-4 sm:px-6 relative'>
+    <footer id="contact" className='bg-primary text-white flex flex-col items-center py-10 sm:py-12 lg:py-16 rounded-t-[30px] sm:rounded-t-[45px] lg:rounded-t-[60px] px-4 sm:px-6 relative'>
       <img
         src={GlobalcropLogo}
         className='h-12 sm:h-16 lg:h-auto relative z-10'

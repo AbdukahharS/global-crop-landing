@@ -8,7 +8,7 @@ const HowItWorks = () => {
   const { t } = useTranslation()
 
   return (
-    <div className='relative min-h-screen pt-40 sm:pt-60 lg:pt-80 pb-20 sm:pb-32 lg:pb-40'>
+    <div id="services" className='relative min-h-screen pt-40 sm:pt-60 lg:pt-80 pb-20 sm:pb-32 lg:pb-40'>
       <div className='z-10'>
         <div className='flex flex-col lg:flex-row justify-around gap-8 sm:gap-12 lg:gap-8 mt-12 sm:mt-20 lg:mt-32 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 2xl:px-32'>
           <div className='flex flex-col gap-8 sm:gap-12 lg:gap-28'>
